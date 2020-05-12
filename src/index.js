@@ -1,17 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { jsx } from "@emotion/core";
+import App from "./App";
+import { ThemeProvider } from "emotion-theming";
+import "semantic-ui-css/semantic.min.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const themeLight = {
+  text: "#000",
+  background: "#fff",
+  buttonText: "#000",
+  buttonTextHover: "#fff",
+  buttonBorder: "#000",
+  buttonBg: "rgba(0, 0, 0, 0)",
+  buttonBgHover: "rgba(0, 0, 0, 1)"
+};
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const themeDark = {
+  text: "#fff",
+  background: "#121212",
+  buttonText: "#fff",
+  buttonTextHover: "#000",
+  buttonBorder: "#fff",
+  buttonBg: "rgba(255, 255, 255, 0)",
+  buttonBgHover: "rgba(255, 255, 255, 1)"
+};
+
+function Root() {
+  const [isDark, setIsDark] = useState(
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
+
+  return (
+    <ThemeProvider theme={isDark ? themeDark : themeLight}>
+      <App isDark={isDark} setIsDark={setIsDark} />
+    </ThemeProvider>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Root />, rootElement);

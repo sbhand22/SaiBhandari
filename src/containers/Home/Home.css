@@ -1,0 +1,98 @@
+.navContainer {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  overflow: visible;
+  border: 5px solid #494c4e;
+  position: relative;
+  transform: rotate(0deg);
+  transition: transform 0.4s ease-in-out;
+  flex-shrink: 0;
+}
+
+.Logo:hover {
+  transform: rotate(360deg);
+}
+.nameSpan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: transform 0.4s ease-in-out;
+  font-weight: 700;
+  font-size: 13px;
+}
+.navRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nameInfo {
+  font-size: 2em;
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+.myImage {
+  display: inline-block !important;
+}
+.aboutHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.aboutContent {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+.aboutParagraph {
+  font-size: 1em;
+  word-spacing: 4px;
+}
+.projectContent {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+.projectHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.contactParagraph {
+  font-size: 1.25em;
+  word-spacing: 4px;
+}
+@media (min-width: 1025px) {
+  .myImage {
+    width: 50%;
+  }
+  .nameInfo {
+    font-size: 3em;
+  }
+  .aboutHeader {
+    font-size: 1.25em;
+  }
+  .aboutContent {
+    padding: 0 10em;
+    padding-bottom: 15em;
+  }
+  .projectContent {
+    padding: 0 10em;
+    padding-bottom: 15em;
+  }
+  .aboutParagraph {
+    font-size: 1.25em;
+    padding: 0 2em;
+  }
+  .projectHeader {
+    font-size: 1.25em;
+  }
+  .contactParagraph {
+    font-size: 1.25em;
+    padding: 0 2em;
+  }
+}
