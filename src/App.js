@@ -1,57 +1,21 @@
-/** @jsx jsx */
-import { css, jsx } from "@emotion/core";
-import { useTheme } from "emotion-theming";
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./containers/Home/Home";
 import SlackClone from "./containers/Projects/SlackClone/SlackClone";
+import BurgerProject from "./containers/Projects/BurgerProject/BurgerProject";
 
-function App({ isDark, setIsDark }) {
-  const theme = useTheme();
-
-  return (
-    <div
-      css={css`
-        padding: 50px 0;
-        background-color: ${theme.background};
-        color: ${theme.text};
-        height: 100%;
-        transition-duration: 0.2s;
-        transition-property: background-color, color;
-      `}
-    >
-      <button
-        style={{ display: "block", margin: "auto" }}
-        css={css`
-          margin-top: 30px;
-          border: 2px solid ${theme.buttonBorder};
-          background-color: ${theme.buttonBg};
-          color: ${theme.buttonText};
-          padding: 14px 28px;
-          font-size: 16px;
-          transition-duration: 0.2s;
-          transition-property: background-color, color;
-          cursor: pointer;
-
-          :hover {
-            background-color: ${theme.buttonBgHover};
-            color: ${theme.buttonTextHover};
-          }
-        `}
-        onClick={() => {
-          setIsDark(!isDark);
-        }}
-      >
-        {isDark ? "Light" : "Dark"} mode
-      </button>
+class App extends Component {
+  render() {
+    return (
       <Switch>
         <Route path="/home" component={Home} />
         <Route path="/slack-project" component={SlackClone} />
+        <Route path="/burger-project" component={BurgerProject} />
         <Route path="*" component={Home} />
       </Switch>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
