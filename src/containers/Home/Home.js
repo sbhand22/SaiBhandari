@@ -3,22 +3,31 @@ import { Container, List, Image, Grid, Icon } from "semantic-ui-react";
 import Media from "react-media";
 import "./Home.css";
 import myPicture from "../../assets/IMG-20200307-WA0053.png";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom";
 import burgerPicture from "../../assets/burgerProject.png";
 import slackLogo from "../../assets/slackLogo.jpg";
 
 class Home extends Component {
+  componentDidMount() {
+    if (window.location.href === "http://localhost:3000/home/#projects") {
+      window.scrollTo(0, 1300);
+    }
+    if (window.location.href === "http://localhost:3000/home/#contact") {
+      window.scrollTo(0, 1900);
+    }
+  }
   render() {
     return (
       <Container>
-        <Container className="navContainer">
-          <a className="Logo">
-            <span className="nameSpan">MH</span>
+        <Container className="HomeNavContainer">
+          <a href="/home" className="HomeLogo">
+            <span className="HomeNameSpan">MH</span>
           </a>
           <List horizontal>
             <List.Item>
               <List.Content>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="about"
                   spy={true}
@@ -26,27 +35,31 @@ class Home extends Component {
                   offset={-70}
                   duration={500}
                 >
-                  About
-                </Link>
+                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
+                    About
+                  </span>
+                </ScrollLink>
               </List.Content>
             </List.Item>
             <List.Item>
               <List.Content>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                 >
-                  Projects
-                </Link>
+                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
+                    Projects
+                  </span>
+                </ScrollLink>
               </List.Content>
             </List.Item>
             <List.Item>
               <List.Content>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="contact"
                   spy={true}
@@ -54,22 +67,24 @@ class Home extends Component {
                   offset={0}
                   duration={500}
                 >
-                  Contact
-                </Link>
+                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
+                    Contact
+                  </span>
+                </ScrollLink>
               </List.Content>
             </List.Item>
           </List>
         </Container>
         <Container>
           <div style={{ padding: "5em 1.5em", textAlign: "center" }}>
-            <h1 className="nameInfo">
+            <h1 className="HomeNameInfo">
               Hello, my name is Mohamed. I am a Designer / Front End Developer.
             </h1>
-            <Image className="myImage" src={myPicture} />
+            <Image className="HomeMyImage" src={myPicture} />
           </div>
-          <div id="about" className="aboutContent">
-            <h2 className="aboutHeader">About:</h2>
-            <p className="aboutParagraph">
+          <div id="about" className="HomeAboutContent">
+            <h2 className="HomeAboutHeader">About:</h2>
+            <p className="HomeAboutParagraph">
               I am currently a student at Faculty of Engineering, Alexandria
               University, Communication Department , I have previous experience
               in the front-end field as I was an intern at Bosta for 4 months, I
@@ -87,8 +102,8 @@ class Home extends Component {
           </div>
         </Container>
         <Container>
-          <div id="projects" className="projectContent">
-            <h2 className="projectHeader">Projects:</h2>
+          <div id={`projects`} className="HomeProjectContent">
+            <h2 className="HomeProjectHeader">Projects:</h2>
             <Media query={{ maxWidth: 599 }}>
               {matches =>
                 matches ? (
@@ -98,7 +113,7 @@ class Home extends Component {
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
                           Burger Builder
                         </h3>
-                        {/* Add routing to this project page */}
+                        {/* add routing */}
                         <Image src={burgerPicture} />
                       </Grid.Column>
                     </Grid.Row>
@@ -107,8 +122,9 @@ class Home extends Component {
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
                           Slack Clone
                         </h3>
-                        {/* Add routing to this project page */}
-                        <Image src={slackLogo} />
+                        <Link to="/slack-project">
+                          <Image src={slackLogo} />
+                        </Link>
                       </Grid.Column>
                     </Grid.Row>
                   </Grid>
@@ -126,8 +142,9 @@ class Home extends Component {
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
                           Slack Clone
                         </h3>
-                        {/* Add routing to this project page */}
-                        <Image src={slackLogo} />
+                        <Link to="/slack-project">
+                          <Image src={slackLogo} />
+                        </Link>
                       </Grid.Column>
                     </Grid.Row>
                   </Grid>
@@ -137,23 +154,23 @@ class Home extends Component {
           </div>
         </Container>
         <Container>
-          <div id="contact" className="projectContent">
-            <h2 className="projectHeader">Contact:</h2>
+          <div id="contact" className="HomeContactContent">
+            <h2 className="HomeContactHeader">Contact:</h2>
             {/*Add form for contact via mail */}
             <Grid style={{ marginLeft: "0rem" }}>
               <Grid.Row>
                 <Icon size="big" disabled name="mail" />
-                <p className="contactParagraph">
+                <p className="HomeContactParagraph">
                   Email: mohamed.hassan2498@gmail.com
                 </p>
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="phone" />
-                <p className="contactParagraph"> Phone: +20 01281468213</p>
+                <p className="HomeContactParagraph"> Phone: +20 01281468213</p>
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="linkedin" />
-                <p className="contactParagraph">
+                <p className="HomeContactParagraph">
                   LinkedIn:{" "}
                   <a
                     href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
@@ -165,7 +182,7 @@ class Home extends Component {
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="github" />
-                <p className="contactParagraph">
+                <p className="HomeContactParagraph">
                   Github:{" "}
                   <a
                     href="https://www.github.com/MohamedHassan2498"

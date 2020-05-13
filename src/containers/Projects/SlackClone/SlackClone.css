@@ -1,0 +1,72 @@
+.SlackNavContainer {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.SlackHomeLogo {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #494c4e;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.SlackHomeLogo:hover {
+  transform: rotate(360deg);
+}
+.SlackNameSpan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  font-weight: bold;
+  font-size: 22px;
+}
+.SlackNameInfo {
+  font-size: 2em;
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+
+.SlackAboutContent {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+.SlackAboutHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.SlackAboutParagraph {
+  font-size: 1em;
+  word-spacing: 4px;
+}
+.SlackCustomizeImageSmall {
+  margin: auto;
+  padding-bottom: 5em;
+}
+.SlackCustomizeImageLarge {
+  margin: auto;
+  padding-bottom: 5em;
+}
+@media (min-width: 1025px) {
+  .SlackCustomizeImageSmall {
+    width: 50%;
+    height: 50%;
+  }
+  .SlackNameInfo {
+    font-size: 3em;
+  }
+  .SlackAboutHeader {
+    font-size: 1.25em;
+  }
+  .SlackAboutContent {
+    padding: 0 10em;
+    padding-bottom: 15em;
+  }
+  .SlackAboutParagraph {
+    font-size: 1.25em;
+    padding: 0 2em;
+  }
+}

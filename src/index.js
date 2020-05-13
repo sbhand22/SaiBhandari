@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { jsx } from "@emotion/core";
 import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "emotion-theming";
 import "semantic-ui-css/semantic.min.css";
 
@@ -32,9 +32,11 @@ function Root() {
   );
 
   return (
-    <ThemeProvider theme={isDark ? themeDark : themeLight}>
-      <App isDark={isDark} setIsDark={setIsDark} />
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={isDark ? themeDark : themeLight}>
+        <App isDark={isDark} setIsDark={setIsDark} />
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 

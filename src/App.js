@@ -2,8 +2,10 @@
 import { css, jsx } from "@emotion/core";
 import { useTheme } from "emotion-theming";
 import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./containers/Home/Home";
+import SlackClone from "./containers/Projects/SlackClone/SlackClone";
 
 function App({ isDark, setIsDark }) {
   const theme = useTheme();
@@ -43,7 +45,11 @@ function App({ isDark, setIsDark }) {
       >
         {isDark ? "Light" : "Dark"} mode
       </button>
-      <Home />
+      <Switch>
+        <Route path="/home" component={Home} />
+        <Route path="/slack-project" component={SlackClone} />
+        <Route path="*" component={Home} />
+      </Switch>
     </div>
   );
 }
