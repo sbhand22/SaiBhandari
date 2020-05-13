@@ -1,97 +1,102 @@
-.navContainer {
+.HomeNavContainer {
   padding-top: 4em;
   padding-bottom: 4em;
   display: flex !important;
   justify-content: space-between;
   align-items: center;
 }
-.Logo {
+.HomeLogo {
   width: 50px;
   height: 50px;
-  display: block;
-  overflow: visible;
   border: 5px solid #494c4e;
-  position: relative;
   transform: rotate(0deg);
-  transition: transform 0.4s ease-in-out;
-  flex-shrink: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
-.Logo:hover {
+.HomeLogo:hover {
   transform: rotate(360deg);
 }
-.nameSpan {
+.HomeNameSpan {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(0deg);
-  transition: transform 0.4s ease-in-out;
-  font-weight: 700;
-  font-size: 13px;
+  font-weight: bold;
+  font-size: 22px;
 }
-.navRight {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.nameInfo {
+.HomeNameInfo {
   font-size: 2em;
   line-height: 1.5em;
   padding-bottom: 2em;
 }
-.myImage {
+.HomeMyImage {
   display: inline-block !important;
 }
-.aboutHeader {
-  padding-bottom: 2em;
-  font-size: 1.5em;
-}
-.aboutContent {
+.HomeAboutContent {
   padding: 0 1.5em;
   padding-bottom: 2em;
 }
-.aboutParagraph {
+.HomeAboutHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.HomeAboutParagraph {
   font-size: 1em;
   word-spacing: 4px;
 }
-.projectContent {
+.HomeProjectContent {
   padding: 0 1.5em;
   padding-bottom: 2em;
 }
-.projectHeader {
+.HomeProjectHeader {
   padding-bottom: 2em;
   font-size: 1.5em;
 }
-.contactParagraph {
+.HomeContactContent {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+.HomeContactHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.HomeContactParagraph {
   font-size: 1.25em;
   word-spacing: 4px;
 }
 @media (min-width: 1025px) {
-  .myImage {
+  .HomeMyImage {
     width: 50%;
   }
-  .nameInfo {
+  .HomeNameInfo {
     font-size: 3em;
   }
-  .aboutHeader {
+  .HomeAboutContent {
+    padding: 0 10em;
+    padding-bottom: 15em;
+  }
+  .HomeAboutHeader {
     font-size: 1.25em;
   }
-  .aboutContent {
+  .HomeProjectContent {
     padding: 0 10em;
     padding-bottom: 15em;
   }
-  .projectContent {
-    padding: 0 10em;
-    padding-bottom: 15em;
-  }
-  .aboutParagraph {
+  .HomeAboutParagraph {
     font-size: 1.25em;
     padding: 0 2em;
   }
-  .projectHeader {
+  .HomeProjectHeader {
     font-size: 1.25em;
   }
-  .contactParagraph {
+  .HomeContactContent {
+    padding: 0 10em;
+    padding-bottom: 15em;
+  }
+  .HomeContactHeader {
+    font-size: 1.25em;
+  }
+  .HomeContactParagraph {
     font-size: 1.25em;
     padding: 0 2em;
   }
