@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { List, Container, Image } from "semantic-ui-react";
 import "./SlackClone.css";
 import { Link } from "react-router-dom";
-import SlackLogo from "../../../assets/slackLogo.jpg";
+import SlackLogo from "../../../assets/Slack/slackLogo.jpg";
 import ImageOne from "../../../assets/Slack/SlackLogin.png";
 import ImageTwo from "../../../assets/Slack/SlackSignup.png";
 import ImageThree from "../../../assets/Slack/SlackFirstChannelColor.png";
@@ -59,6 +59,7 @@ class SlackClone extends Component {
             <p className="SlackAboutParagraph">
               My slack clone project can be found{" "}
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/MohamedHassan2498/slack-clone-react"
               >
@@ -69,17 +70,21 @@ class SlackClone extends Component {
               Slack is a collaboration hub that can replace email to help you
               and your team work together seamlessly. It’s designed to support
               the way people naturally work together, so you can collaborate
-              with people online as efficiently as you do face-to-face.
+              with people online as efficiently as you do face-to-face, built
+              using ReactJs and ReduxJs. The application uses all the new
+              features introduced in ES6. The Application also used proper
+              authentication and from validation and implements routing uses
+              React Router.
             </p>
 
             <p className="SlackAboutParagraph">
               Here are some photos of the project
             </p>
-            <Image className="SlackCustomizeImageSmall" src={ImageOne} />
-            <Image className="SlackCustomizeImageSmall" src={ImageTwo} />
-            <Image className="SlackCustomizeImageLarge" src={ImageThree} />
-            <Image className="SlackCustomizeImageLarge" src={ImageFour} />
           </div>
+          <Image className="SlackCustomizeImageSmall" src={ImageOne} />
+          <Image className="SlackCustomizeImageSmall" src={ImageTwo} />
+          <Image className="SlackCustomizeImageLarge" src={ImageThree} />
+          <Image className="SlackCustomizeImageLarge" src={ImageFour} />
         </Container>
       </Container>
     );

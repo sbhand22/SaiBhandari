@@ -5,16 +5,17 @@ import "./Home.css";
 import myPicture from "../../assets/IMG-20200307-WA0053.png";
 import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
-import burgerPicture from "../../assets/burgerProject.png";
-import slackLogo from "../../assets/slackLogo.jpg";
+import burgerPicture from "../../assets/Burger/burgerProject.png";
+import slackLogo from "../../assets/Slack/slackLogo.jpg";
+import ContactForm from "./ContactForm/ContactForm";
 
 class Home extends Component {
   componentDidMount() {
     if (window.location.href === "http://localhost:3000/home/#projects") {
-      window.scrollTo(0, 1300);
+      window.scrollTo(0, 1150);
     }
     if (window.location.href === "http://localhost:3000/home/#contact") {
-      window.scrollTo(0, 1900);
+      window.scrollTo(0, 2150);
     }
   }
   render() {
@@ -48,7 +49,7 @@ class Home extends Component {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-70}
                   duration={500}
                 >
                   <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
@@ -94,6 +95,7 @@ class Home extends Component {
               <a
                 href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Linkedin
               </a>{" "}
@@ -113,8 +115,9 @@ class Home extends Component {
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
                           Burger Builder
                         </h3>
-                        {/* add routing */}
-                        <Image src={burgerPicture} />
+                        <Link to="/burger-project">
+                          <Image src={burgerPicture} />
+                        </Link>
                       </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
@@ -135,8 +138,9 @@ class Home extends Component {
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
                           Burger Builder
                         </h3>
-                        {/* Add routing to this project page */}
-                        <Image src={burgerPicture} />
+                        <Link to="/burger-project">
+                          <Image src={burgerPicture} />
+                        </Link>
                       </Grid.Column>
                       <Grid.Column>
                         <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
@@ -156,7 +160,7 @@ class Home extends Component {
         <Container>
           <div id="contact" className="HomeContactContent">
             <h2 className="HomeContactHeader">Contact:</h2>
-            {/*Add form for contact via mail */}
+            <ContactForm />
             <Grid style={{ marginLeft: "0rem" }}>
               <Grid.Row>
                 <Icon size="big" disabled name="mail" />
@@ -175,6 +179,7 @@ class Home extends Component {
                   <a
                     href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     www.linkedin.com/in/mohamed-hassan-4b71b4188
                   </a>
@@ -187,6 +192,7 @@ class Home extends Component {
                   <a
                     href="https://www.github.com/MohamedHassan2498"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     www.github.com/MohamedHassan2498
                   </a>
