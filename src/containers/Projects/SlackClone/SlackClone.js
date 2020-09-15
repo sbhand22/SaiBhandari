@@ -1,60 +1,41 @@
 import React, { Component } from "react";
-import { List, Container, Image } from "semantic-ui-react";
-import "./SlackClone.css";
-import { Link } from "react-router-dom";
+import { Container, Image } from "semantic-ui-react";
+import AOS from "aos";
+import Nav from "../../../components/Nav/Nav";
 import SlackLogo from "../../../assets/Slack/slackLogo.jpg";
 import ImageOne from "../../../assets/Slack/SlackLogin.png";
 import ImageTwo from "../../../assets/Slack/SlackSignup.png";
 import ImageThree from "../../../assets/Slack/SlackFirstChannelColor.png";
 import ImageFour from "../../../assets/Slack/SlackSecondChannelColor.png";
+import "./SlackClone.css";
 
 class SlackClone extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    AOS.init({
+      duration: 1000,
+    });
   }
   render() {
     return (
-      <Container>
-        <Container className="SlackNavContainer">
-          <a href="/home" className="SlackHomeLogo">
-            <span className="SlackNameSpan">MH</span>
-          </a>
-          <List horizontal>
-            <List.Item>
-              <List.Content>
-                <Link to="/home">
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    Home
-                  </span>
-                </Link>
-              </List.Content>
-            </List.Item>
-            <List.Item>
-              <List.Content>
-                <Link to="/home/#projects">
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    Projects
-                  </span>
-                </Link>
-              </List.Content>
-            </List.Item>
-            <List.Item>
-              <List.Content>
-                <Link to="/home/#contact">
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    Contact
-                  </span>
-                </Link>
-              </List.Content>
-            </List.Item>
-          </List>
-        </Container>
+      <>
+        <Nav />
         <Container>
-          <div style={{ padding: "5em 1.5em", textAlign: "center" }}>
-            <h1 className="SlackNameInfo">Slack Clone</h1>
-            <Image style={{ margin: "auto" }} src={SlackLogo} />
+          <div className="SlackAnimation SlackAnimationSpan">
+            <b>
+              <span>S</span>
+              <span>l</span>
+              <span>a</span>
+              <span>c</span>
+              <span>k</span>&nbsp;
+              <span>C</span>
+              <span>l</span>
+              <span>o</span>
+              <span>n</span>
+              <span>e</span>
+            </b>
+            <Image data-aos="fade-up" className="SlackLogo" src={SlackLogo} />
           </div>
-          <div id="about" className="SlackAboutContent">
+          <div id="about" data-aos="fade-right" className="SlackAbout">
             <h2 className="SlackAboutHeader">About:</h2>
             <p className="SlackAboutParagraph">
               My slack clone project can be found{" "}
@@ -76,17 +57,32 @@ class SlackClone extends Component {
               authentication and from validation and implements routing uses
               React Router.
             </p>
-
-            <p className="SlackAboutParagraph">
-              Here are some photos of the project
-            </p>
           </div>
-          <Image className="SlackCustomizeImageSmall" src={ImageOne} />
-          <Image className="SlackCustomizeImageSmall" src={ImageTwo} />
-          <Image className="SlackCustomizeImageLarge" src={ImageThree} />
-          <Image className="SlackCustomizeImageLarge" src={ImageFour} />
+          <p data-aos="fade-left" className="SlackPhotosParagraph">
+            Here are some photos of the project
+          </p>
+          <Image
+            data-aos="fade-left"
+            className="SlackCustomizeImageSmall"
+            src={ImageOne}
+          />
+          <Image
+            data-aos="fade-left"
+            className="SlackCustomizeImageSmall"
+            src={ImageTwo}
+          />
+          <Image
+            data-aos="fade-left"
+            className="SlackCustomizeImageLarge"
+            src={ImageThree}
+          />
+          <Image
+            data-aos="fade-left"
+            className="SlackCustomizeImageLarge"
+            src={ImageFour}
+          />
         </Container>
-      </Container>
+      </>
     );
   }
 }

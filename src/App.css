@@ -11,15 +11,7 @@ body.dark-mode .dark-mode-toggle > button {
 body.dark-mode .dark-mode-toggle > button:last-child {
   color: lightblue;
 }
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  background-color: #95d3ff;
-  padding: 20px;
-  z-index: 1;
-}
+
 body.dark-mode .content code {
   background-color: #1b2938;
 }
@@ -28,6 +20,33 @@ body.dark-mode .content a {
 }
 body.dark-mode .content button {
   color: #ee0 9;
+}
+body.dark-mode .BurgerAnimationSpan span {
+  color: white;
+}
+body.dark-mode .SlackAnimationSpan span {
+  color: white;
+}
+body.dark-mode .Navsticky {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body.dark-mode .bm-burger-bars {
+  background: #717171;
+}
+body.dark-mode .bm-burger-bars-hover {
+  background: #717171;
+}
+body.dark-mode .fgBsdG {
+  color: #1b2938;
+}
+body.dark-mode .ui.form .field .ui.input input,
+.ui.form .fields .field .ui.input input {
+  color: white;
+  background: black;
+}
+body.dark-mode .ui.form textarea {
+  color: white;
+  background: black;
 }
 .dark-mode-toggle {
   display: flex;
@@ -84,4 +103,48 @@ input[type="checkbox"].dmcheck + label {
   background: #fff;
   opacity: 0.9;
   background-color: #f6f6f6;
+}
+
+@keyframes revolveScale {
+  60% {
+    transform: translate(20px, 20px) rotate(30deg) scale(0.3);
+  }
+  100% {
+    transform: translate(0) rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes Pulse {
+  0% {
+    box-shadow: 0px 0px 37px 2px rgba(55, 119, 158, 1);
+  }
+  25% {
+    box-shadow: 0px 0px 37px 2px rgba(155, 59, 59, 1);
+  }
+  50% {
+    box-shadow: 0px 0px 37px 2px rgba(32, 92, 55, 1);
+  }
+  75% {
+    box-shadow: 0px 0px 37px 2px rgba(155, 59, 59, 1);
+  }
+  100% {
+    box-shadow: 0px 0px 37px 2px rgba(55, 119, 158, 1);
+  }
+}
+@keyframes ButtonPulse {
+  0% {
+    background-color: rgba(55, 119, 158, 1);
+  }
+  25% {
+    background-color: rgba(155, 59, 59, 1);
+  }
+  50% {
+    background-color: rgba(32, 92, 55, 1);
+  }
+  75% {
+    background-color: rgba(155, 59, 59, 1);
+  }
+  100% {
+    background-color: rgba(55, 119, 158, 1);
+  }
 }

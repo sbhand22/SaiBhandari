@@ -1,97 +1,40 @@
 import React, { Component } from "react";
-import { Container, List, Image, Grid, Icon } from "semantic-ui-react";
-import Media from "react-media";
-import "./Home.css";
-import myPicture from "../../assets/IMG-20200307-WA0053.png";
-import { Link as ScrollLink } from "react-scroll";
-import { Link } from "react-router-dom";
+import { Container, Image, Grid, Icon } from "semantic-ui-react";
+import Nav from "../../components/Nav/Nav";
+import Header from "../../components/Header/Header";
 import burgerPicture from "../../assets/Burger/burgerProject.png";
 import slackLogo from "../../assets/Slack/slackLogo.jpg";
 import ContactForm from "./ContactForm/ContactForm";
+import "./Home.css";
 
 class Home extends Component {
-  componentDidMount() {
-    if (window.location.href === "http://localhost:3000/home/#projects") {
-      window.scrollTo(0, 1150);
-    }
-    if (window.location.href === "http://localhost:3000/home/#contact") {
-      window.scrollTo(0, 2150);
-    }
-  }
   render() {
     return (
-      <Container>
-        <Container className="HomeNavContainer">
-          <a href="/home" className="HomeLogo">
-            <span className="HomeNameSpan">MH</span>
-          </a>
-          <List horizontal>
-            <List.Item>
-              <List.Content>
-                <ScrollLink
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    About
-                  </span>
-                </ScrollLink>
-              </List.Content>
-            </List.Item>
-            <List.Item>
-              <List.Content>
-                <ScrollLink
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    Projects
-                  </span>
-                </ScrollLink>
-              </List.Content>
-            </List.Item>
-            <List.Item>
-              <List.Content>
-                <ScrollLink
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                >
-                  <span style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                    Contact
-                  </span>
-                </ScrollLink>
-              </List.Content>
-            </List.Item>
-          </List>
-        </Container>
+      <>
+        <Nav place={"home"} />
+        <Header />
         <Container>
-          <div style={{ padding: "5em 1.5em", textAlign: "center" }}>
-            <h1 className="HomeNameInfo">
-              Hello, my name is Mohamed. I am a Designer / Front End Developer.
-            </h1>
-            <Image className="HomeMyImage" src={myPicture} />
-          </div>
-          <div id="about" className="HomeAboutContent">
-            <h2 className="HomeAboutHeader">About:</h2>
-            <p className="HomeAboutParagraph">
+          <div
+            data-aos="fade-right"
+            id="about"
+            className="HomeContent HomePadding"
+          >
+            <h2 className="HomeHeader">About:</h2>
+            <p className="HomeParagraph">
               I am currently a student at Faculty of Engineering, Alexandria
               University, Communication Department , I have previous experience
-              in the front-end field as I was an intern at Bosta for 4 months, I
-              built a website using ReactJS , Redux and Bootstrap UI about sold
-              items left in stations monitored by Bosta that their buyers didn't
-              receive yet due to unavailability, Here is my{" "}
+              in the front-end field as I was an intern at{" "}
+              <a
+                href="https://bosta.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bosta
+              </a>{" "}
+              for 4 months, I built a website using ReactJS , Redux and
+              Bootstrap UI about sold items left in stations monitored by Bosta
+              that their buyers didn't receive yet due to unavailability, Here
+              is my{" "}
               <a
                 href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
                 target="_blank"
@@ -102,79 +45,105 @@ class Home extends Component {
               account
             </p>
           </div>
-        </Container>
-        <Container>
-          <div id={`projects`} className="HomeProjectContent">
-            <h2 className="HomeProjectHeader">Projects:</h2>
-            <Media query={{ maxWidth: 599 }}>
-              {matches =>
-                matches ? (
-                  <Grid>
-                    <Grid.Row>
-                      <Grid.Column>
-                        <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
-                          Burger Builder
-                        </h3>
-                        <Link to="/burger-project">
-                          <Image src={burgerPicture} />
-                        </Link>
-                      </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                      <Grid.Column>
-                        <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
-                          Slack Clone
-                        </h3>
-                        <Link to="/slack-project">
-                          <Image src={slackLogo} />
-                        </Link>
-                      </Grid.Column>
-                    </Grid.Row>
-                  </Grid>
-                ) : (
-                  <Grid>
-                    <Grid.Row columns={2}>
-                      <Grid.Column>
-                        <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
-                          Burger Builder
-                        </h3>
-                        <Link to="/burger-project">
-                          <Image src={burgerPicture} />
-                        </Link>
-                      </Grid.Column>
-                      <Grid.Column>
-                        <h3 style={{ textAlign: "center", fontSize: "1.23em" }}>
-                          Slack Clone
-                        </h3>
-                        <Link to="/slack-project">
-                          <Image src={slackLogo} />
-                        </Link>
-                      </Grid.Column>
-                    </Grid.Row>
-                  </Grid>
-                )
-              }
-            </Media>
+          <div
+            data-aos="fade-right"
+            id="skills"
+            className="HomeContent HomePadding"
+          >
+            <h2 className="HomeHeader">Skills:</h2>
+            <p className="HomeParagraph HomeSkills">
+              <Icon name="html5" size="big" />
+              <Icon name="css3" size="big" />
+              <Icon name="sass" size="big" />
+              <Icon name="js square" size="big" />
+              <Icon name="react" size="big" />
+              <Icon name="git" size="big" />
+            </p>
           </div>
-        </Container>
-        <Container>
-          <div id="contact" className="HomeContactContent">
-            <h2 className="HomeContactHeader">Contact:</h2>
+          <div
+            data-aos="fade-left"
+            id={`projects`}
+            className="HomeContent HomePadding"
+          >
+            <h2 className="HomeHeader">Projects:</h2>
+            <Grid>
+              <Grid.Row>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/burger-project">
+                      Burger Builder
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image
+                      bordered
+                      src={burgerPicture}
+                      className="ProjectImage"
+                    />
+                    <div className="ImageHoverOne">
+                      <a rel="noopener noreferrer" href="/burger-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwo">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/React-Burger-Project"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/slack-project">
+                      Slack Clone
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image bordered className="ProjectImage" src={slackLogo} />
+                    <div className="ImageHoverOne">
+                      <a rel="noopener noreferrer" href="/slack-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwo">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/slack-clone-react"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </div>
+          <div
+            data-aos="fade-down"
+            id="contact"
+            className="HomeContent HomePadding"
+          >
+            <h2 className="HomeHeader">Contact:</h2>
             <ContactForm />
-            <Grid style={{ marginLeft: "0rem" }}>
+            <Grid className="ContactDetails">
               <Grid.Row>
                 <Icon size="big" disabled name="mail" />
-                <p className="HomeContactParagraph">
+                <p className="HomeParagraph">
                   Email: mohamed.hassan2498@gmail.com
                 </p>
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="phone" />
-                <p className="HomeContactParagraph"> Phone: +20 01281468213</p>
+                <p className="HomeParagraph"> Phone: +20 01281468213</p>
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="linkedin" />
-                <p className="HomeContactParagraph">
+                <p className="HomeParagraph">
                   LinkedIn:{" "}
                   <a
                     href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
@@ -187,7 +156,7 @@ class Home extends Component {
               </Grid.Row>
               <Grid.Row>
                 <Icon size="big" disabled name="github" />
-                <p className="HomeContactParagraph">
+                <p className="HomeParagraph">
                   Github:{" "}
                   <a
                     href="https://www.github.com/MohamedHassan2498"
@@ -201,7 +170,7 @@ class Home extends Component {
             </Grid>
           </div>
         </Container>
-      </Container>
+      </>
     );
   }
 }

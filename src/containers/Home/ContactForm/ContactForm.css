@@ -1,0 +1,24 @@
+.ContactFormStyle {
+  margin-bottom: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.ButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContactFormLabel {
+  color: red !important;
+  padding-top: 1em;
+}
+.ContactFormButton {
+  display: block !important;
+  margin: auto !important;
+  color: white !important;
+  font-size: 1.2em !important;
+  padding: 1.5rem 3.5rem !important;
+  margin-top: 2em !important;
+  border-radius: 30px !important;
+  animation: ButtonPulse 4s infinite ease-in-out;
+}

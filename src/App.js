@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import "./App.css";
 import Home from "./containers/Home/Home";
-import SlackClone from "./containers/Projects/SlackClone/SlackClone";
 import BurgerProject from "./containers/Projects/BurgerProject/BurgerProject";
+import SlackClone from "./containers/Projects/SlackClone/SlackClone";
+import "./App.css";
 
 class App extends Component {
   render() {

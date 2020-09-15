@@ -1,103 +1,97 @@
-.HomeNavContainer {
-  padding-top: 5em;
-  padding-bottom: 4em;
-  display: flex !important;
-  justify-content: space-between;
-  align-items: center;
-}
-.HomeLogo {
-  width: 50px;
-  height: 50px;
-  border: 5px solid #494c4e;
-  transform: rotate(0deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-.HomeLogo:hover {
-  transform: rotate(360deg);
-}
-.HomeNameSpan {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0deg);
-  font-weight: bold;
-  font-size: 22px;
-}
-.HomeNameInfo {
-  font-size: 2em;
-  line-height: 1.5em;
+.HomeContent {
+  padding-left: 1.5em;
   padding-bottom: 2em;
+  padding-right: 1.5em;
 }
-.HomeMyImage {
-  display: inline-block !important;
+.HomePadding {
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  border-radius: 30px;
+  animation: Pulse 4s infinite ease-in-out;
 }
-.HomeAboutContent {
-  padding: 0 1.5em;
-  padding-bottom: 2em;
+.HomePadding:last-child {
+  margin-bottom: 2.5em;
 }
-.HomeAboutHeader {
+.HomeHeader {
   padding-bottom: 2em;
   font-size: 1.5em;
 }
-.HomeAboutParagraph {
+.HomeParagraph {
   font-size: 1em;
   word-spacing: 4px;
 }
-.HomeProjectContent {
-  padding: 0 1.5em;
-  padding-bottom: 2em;
+.HomeSkills {
+  display: flex;
+  justify-content: space-between;
 }
-.HomeProjectHeader {
-  padding-bottom: 2em;
+.HomeProjectTitle {
   font-size: 1.5em;
+  text-align: center;
 }
-.HomeContactContent {
-  padding: 0 1.5em;
-  padding-bottom: 2em;
+.ProjectFirstRow {
+  margin-bottom: 3em;
 }
-.HomeContactHeader {
-  padding-bottom: 2em;
-  font-size: 1.5em;
+.ProjectImage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
-.HomeContactParagraph {
-  font-size: 1.25em;
-  word-spacing: 4px;
+.ImageHoverOne {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  text-align: center;
 }
-@media (min-width: 1025px) {
-  .HomeMyImage {
-    width: 50%;
+.ImageHoverTwo {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  text-align: center;
+}
+.ProjectFirstRow:hover .ProjectImage {
+  opacity: 0.3;
+}
+.HoverText {
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  animation: ButtonPulse 4s infinite ease-in-out, Pulse 4s infinite ease-in-out;
+}
+.ProjectFirstRow:hover .ImageHoverOne {
+  opacity: 1;
+}
+.ProjectFirstRow:hover .ImageHoverTwo {
+  opacity: 1;
+}
+.ContactDetails {
+  margin-left: 0px !important;
+}
+
+@media (min-width: 1023px) {
+  .HomeContent {
+    margin-left: 10em;
+    padding-bottom: 5em;
   }
-  .HomeNameInfo {
-    font-size: 3em;
+  .HomeHeader {
+    font-size: 2em;
   }
-  .HomeAboutContent {
-    padding: 0 10em;
-    padding-bottom: 15em;
-  }
-  .HomeAboutHeader {
-    font-size: 1.25em;
-  }
-  .HomeProjectContent {
-    padding: 0 10em;
-    padding-bottom: 15em;
-  }
-  .HomeAboutParagraph {
-    font-size: 1.25em;
+  .HomeParagraph {
+    font-size: 1.5em;
     padding: 0 2em;
   }
-  .HomeProjectHeader {
-    font-size: 1.25em;
-  }
-  .HomeContactContent {
-    padding: 0 10em;
-    padding-bottom: 15em;
-  }
-  .HomeContactHeader {
-    font-size: 1.25em;
-  }
-  .HomeContactParagraph {
-    font-size: 1.25em;
-    padding: 0 2em;
+  .ProjectFirstRow {
+    margin-bottom: 0em;
   }
 }

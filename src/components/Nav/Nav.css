@@ -1,0 +1,147 @@
+.Nav {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  z-index: 6;
+  transition: all 0.3s ease-in-out;
+  padding: 3rem 5rem 3rem 5rem;
+}
+.Navsticky {
+  padding: 1.5rem !important;
+  background-color: rgba(15, 192, 226, 0.29);
+}
+
+.NavItem {
+  overflow: hidden;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: #4183c4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 1rem;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.NavMH {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.NavMH:hover {
+  transform: rotate(360deg);
+}
+.NavLink:hover {
+  color: #2d9a8a;
+}
+
+.NavLink::before {
+  transition: transform 0.3s ease-in-out 0.1s;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #726eff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-101%);
+}
+
+.NavLink:hover::before {
+  transform: translateX(0%);
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: black;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: black;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  width: 250px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  display: inline-block;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  outline: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 560px) {
+  .Nav {
+    padding: 3rem 0rem 3rem 0rem !important;
+  }
+  .Navsticky {
+    padding: 0rem !important;
+  }
+}
+@media only screen and (max-width: 485px) {
+  .NavItem {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  .NavLink::before {
+    transform: translateX(-160%);
+  }
+}
