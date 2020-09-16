@@ -1,6 +1,6 @@
 .SlackAnimation {
   padding: 2em 1.5em;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
 }
 .SlackAnimation span {
@@ -81,6 +81,9 @@
   padding-bottom: 5em;
 }
 @media (min-width: 1025px) {
+  .SlackAnimation {
+    font-size: 3em;
+  }
   .SlackCustomizeImageSmall {
     width: 50%;
     height: 50%;
@@ -97,5 +100,10 @@
   }
   .SlackPhotosParagraph {
     font-size: 1.5em;
+  }
+}
+@media (max-width: 375px) {
+  .SlackAnimation {
+    font-size: 2em;
   }
 }
