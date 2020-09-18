@@ -52,12 +52,12 @@ class Home extends Component {
           >
             <h2 className="HomeHeader">Skills:</h2>
             <p className="HomeParagraph HomeSkills">
-              <Icon name="html5" size="big" />
-              <Icon name="css3" size="big" />
-              <Icon name="sass" size="big" />
-              <Icon name="js square" size="big" />
-              <Icon name="react" size="big" />
-              <Icon name="git" size="big" />
+              <Icon className="SkillEditor" name="html5" size="big" />
+              <Icon className="SkillEditor" name="css3" size="big" />
+              <Icon className="SkillEditor" name="sass" size="big" />
+              <Icon className="SkillEditor" name="js square" size="big" />
+              <Icon className="SkillEditor" name="react" size="big" />
+              <Icon className="SkillEditor" name="git" size="big" />
             </p>
           </div>
           <div

@@ -12,7 +12,7 @@
 }
 .Navsticky {
   padding: 1.5rem !important;
-  background-color: rgba(15, 192, 226, 0.29);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .NavItem {
@@ -137,7 +137,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 @media only screen and (max-width: 485px) {
   .NavItem {
-    padding-top: 2em;
+    margin-top: 2em;
     display: flex;
     justify-content: center;
   }

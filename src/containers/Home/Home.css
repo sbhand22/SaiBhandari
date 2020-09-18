@@ -24,6 +24,14 @@
   display: flex;
   justify-content: space-between;
 }
+.SkillEditor {
+  transform: scale(1);
+  transition: 0.5s ease-out;
+}
+.SkillEditor:hover {
+  transform: scale(1.5);
+}
+
 .HomeProjectTitle {
   font-size: 1.5em;
   text-align: center;
@@ -81,7 +89,6 @@
 
 @media (min-width: 1023px) {
   .HomeContent {
-    margin-left: 10em;
     padding-bottom: 5em;
   }
   .HomeHeader {

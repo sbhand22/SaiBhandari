@@ -27,8 +27,11 @@ body.dark-mode .BurgerAnimationSpan span {
 body.dark-mode .SlackAnimationSpan span {
   color: white;
 }
+body.dark-mode .WikiMoviesAnimationSpan span {
+  color: white;
+}
 body.dark-mode .Navsticky {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 body.dark-mode .bm-burger-bars {
   background: #717171;

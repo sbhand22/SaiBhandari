@@ -59,3 +59,8 @@
     font-size: 3rem !important;
   }
 }
+@media only screen and (max-width: 350px) {
+  .headerHero span {
+    font-size: 0.9em;
+  }
+}
