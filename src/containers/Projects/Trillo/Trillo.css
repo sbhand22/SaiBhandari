@@ -1,30 +1,27 @@
-.NatoursAnimation {
+.TrilloAnimation {
   padding: 2em 1.5em;
   font-size: 2.5em;
   text-align: center;
 }
-.NatoursAnimation span {
+.TrilloAnimation span {
   display: inline-block;
 }
-.NatoursAnimation span:nth-of-type(2) {
+.TrilloAnimation span:nth-of-type(2) {
   animation-delay: 0.05s;
 }
-.NatoursAnimation span:nth-of-type(3) {
+.TrilloAnimation span:nth-of-type(3) {
   animation-delay: 0.1s;
 }
-.NatoursAnimation span:nth-of-type(4) {
+.TrilloAnimation span:nth-of-type(4) {
   animation-delay: 0.15s;
 }
-.NatoursAnimation span:nth-of-type(5) {
+.TrilloAnimation span:nth-of-type(5) {
   animation-delay: 0.2s;
 }
-.NatoursAnimation span:nth-of-type(6) {
+.TrilloAnimation span:nth-of-type(6) {
   animation-delay: 0.25s;
 }
-.NatoursAnimation span:nth-of-type(7) {
-  animation-delay: 0.3s;
-}
-.NatoursAnimationSpan span {
+.TrilloAnimationSpan span {
   color: black;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -32,51 +29,51 @@
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
   animation: revolveScale 0.4s forwards;
 }
-.NatoursAbout {
+.TrilloAbout {
   margin-top: 2.5em;
   padding: 2.5em 2.5em 3em 2.5em;
   border-radius: 30px;
   margin-bottom: 5em;
   animation: Pulse 4s infinite ease-in-out;
 }
-.NatoursAbout:last-child {
+.TrilloAbout:last-child {
   margin-bottom: 2.5em;
 }
-.NatoursAboutHeader {
+.TrilloAboutHeader {
   padding-bottom: 2em;
   font-size: 1.5em;
 }
-.NatoursAboutParagraph {
+.TrilloAboutParagraph {
   font-size: 1em;
   word-spacing: 4px;
 }
-.NatoursPhotosParagraph {
+.TrilloPhotosParagraph {
   font-size: 1.2em;
   padding-left: 1.5em;
   padding-bottom: 2em;
 }
-.NatoursCustomizeImageLarge {
+.TrilloCustomizeImageLarge {
   margin: auto;
   padding-bottom: 5em;
 }
 
 @media (min-width: 1025px) {
-  .NatoursAnimation {
+  .TrilloAnimation {
     font-size: 3em;
   }
-  .NatoursAboutHeader {
+  .TrilloAboutHeader {
     font-size: 2em;
   }
-  .NatoursAboutParagraph {
+  .TrilloAboutParagraph {
     font-size: 1.5em;
     padding: 0 2em;
   }
-  .NatoursPhotosParagraph {
+  .TrilloPhotosParagraph {
     font-size: 1.5em;
   }
 }
 @media (max-width: 375px) {
-  .NatoursAnimation {
+  .TrilloAnimation {
     font-size: 2em;
   }
 }

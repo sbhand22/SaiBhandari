@@ -36,11 +36,7 @@ class BurgerProject extends Component {
               <span>e</span>
               <span>r</span>
             </b>
-            <Image
-              data-aos="fade-up"
-              className="BurgerImageLogo"
-              src={BurgerLogo}
-            />
+            <Image data-aos="fade-up" src={BurgerLogo} />
           </div>
           <div id="about" data-aos="fade-right" className="BurgerAbout">
             <h2 className="BurgerAboutHeader">About:</h2>
