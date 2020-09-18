@@ -6,6 +6,7 @@ import SlackClone from "./containers/Projects/SlackClone/SlackClone";
 import WikiMovies from "./containers/Projects/WikiMovies/WikiMovies";
 import Natours from "./containers/Projects/Natours/Natours";
 import Trillo from "./containers/Projects/Trillo/Trillo";
+import Nexter from "./containers/Projects/Nexter/Nexter";
 import "./App.css";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path="/wikimovies-project" component={WikiMovies} />
         <Route path="/natours-project" component={Natours} />
         <Route path="/trillo-project" component={Trillo} />
+        <Route path="/nexter-project" component={Nexter} />
         <Route path="*" component={Home} />
       </Switch>
     );

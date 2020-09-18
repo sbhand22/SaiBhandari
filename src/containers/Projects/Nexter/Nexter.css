@@ -1,0 +1,79 @@
+.NexterAnimation {
+  padding: 2em 1.5em;
+  font-size: 2.5em;
+  text-align: center;
+}
+.NexterAnimation span {
+  display: inline-block;
+}
+.NexterAnimation span:nth-of-type(2) {
+  animation-delay: 0.05s;
+}
+.NexterAnimation span:nth-of-type(3) {
+  animation-delay: 0.1s;
+}
+.NexterAnimation span:nth-of-type(4) {
+  animation-delay: 0.15s;
+}
+.NexterAnimation span:nth-of-type(5) {
+  animation-delay: 0.2s;
+}
+.NexterAnimation span:nth-of-type(6) {
+  animation-delay: 0.25s;
+}
+.NexterAnimationSpan span {
+  color: black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  opacity: 0;
+  transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+  animation: revolveScale 0.4s forwards;
+}
+.NexterAbout {
+  margin-top: 2.5em;
+  padding: 2.5em 2.5em 3em 2.5em;
+  border-radius: 30px;
+  margin-bottom: 5em;
+  animation: Pulse 4s infinite ease-in-out;
+}
+.NexterAbout:last-child {
+  margin-bottom: 2.5em;
+}
+.NexterAboutHeader {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+.NexterAboutParagraph {
+  font-size: 1em;
+  word-spacing: 4px;
+}
+.NexterPhotosParagraph {
+  font-size: 1.2em;
+  padding-left: 1.5em;
+  padding-bottom: 2em;
+}
+.NexterCustomizeImageLarge {
+  margin: auto;
+  padding-bottom: 5em;
+}
+
+@media (min-width: 1025px) {
+  .NexterAnimation {
+    font-size: 3em;
+  }
+  .NexterAboutHeader {
+    font-size: 2em;
+  }
+  .NexterAboutParagraph {
+    font-size: 1.5em;
+    padding: 0 2em;
+  }
+  .NexterPhotosParagraph {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 375px) {
+  .NexterAnimation {
+    font-size: 2em;
+  }
+}
