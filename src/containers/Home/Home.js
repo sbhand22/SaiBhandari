@@ -4,6 +4,7 @@ import Nav from "../../components/Nav/Nav";
 import Header from "../../components/Header/Header";
 import burgerPicture from "../../assets/Burger/burgerProject.png";
 import slackLogo from "../../assets/Slack/slackLogo.jpg";
+import natoursLogo from "../../assets/Natours/NatoursLogo.png";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Home.css";
 
@@ -116,6 +117,45 @@ class Home extends Component {
                         href="https://www.github.com/MohamedHassan2498/slack-clone-react"
                       >
                         <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+              </Grid.Row>
+              <Grid.Row>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/natours-project">
+                      Natours
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image
+                      bordered
+                      src={natoursLogo}
+                      className="ProjectImage"
+                    />
+                    <div className="ImageHoverOne">
+                      <a rel="noopener noreferrer" href="/natours-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwo">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/Natours"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://natourlandingpage.netlify.app/"
+                      >
+                        <div className="HoverText">Live Demo</div>
                       </a>
                     </div>
                   </div>

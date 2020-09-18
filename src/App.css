@@ -30,6 +30,9 @@ body.dark-mode .SlackAnimationSpan span {
 body.dark-mode .WikiMoviesAnimationSpan span {
   color: white;
 }
+body.dark-mode .NatoursAnimationSpan span {
+  color: white;
+}
 body.dark-mode .Navsticky {
   background-color: rgba(0, 0, 0, 0.8);
 }
