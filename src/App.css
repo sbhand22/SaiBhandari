@@ -33,6 +33,9 @@ body.dark-mode .WikiMoviesAnimationSpan span {
 body.dark-mode .NatoursAnimationSpan span {
   color: white;
 }
+body.dark-mode .TrilloAnimation span {
+  color: white;
+}
 body.dark-mode .Navsticky {
   background-color: rgba(0, 0, 0, 0.8);
 }

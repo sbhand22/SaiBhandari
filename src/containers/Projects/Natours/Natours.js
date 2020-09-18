@@ -30,11 +30,7 @@ class Natours extends Component {
               <span>r</span>
               <span>s</span>
             </b>
-            <Image
-              data-aos="fade-up"
-              className="NatoursImageLogo"
-              src={NatoursLogo}
-            />
+            <Image data-aos="fade-up" src={NatoursLogo} />
           </div>
           <div id="about" data-aos="fade-right" className="NatoursAbout">
             <h2 className="NatoursAboutHeader">About:</h2>

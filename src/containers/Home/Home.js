@@ -5,6 +5,7 @@ import Header from "../../components/Header/Header";
 import burgerPicture from "../../assets/Burger/burgerProject.png";
 import slackLogo from "../../assets/Slack/slackLogo.jpg";
 import natoursLogo from "../../assets/Natours/NatoursLogo.png";
+import trilloLogo from "../../assets/Trillo/TrilloLogo.png";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Home.css";
 
@@ -81,12 +82,12 @@ class Home extends Component {
                       src={burgerPicture}
                       className="ProjectImage"
                     />
-                    <div className="ImageHoverOne">
+                    <div className="ImageHoverOneofTwo">
                       <a rel="noopener noreferrer" href="/burger-project">
                         <div className="HoverText">Show Details</div>
                       </a>
                     </div>
-                    <div className="ImageHoverTwo">
+                    <div className="ImageHoverTwoOfTwo">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -105,12 +106,12 @@ class Home extends Component {
                   </h3>
                   <div className="ProjectFirstRow">
                     <Image bordered className="ProjectImage" src={slackLogo} />
-                    <div className="ImageHoverOne">
+                    <div className="ImageHoverOneofTwo">
                       <a rel="noopener noreferrer" href="/slack-project">
                         <div className="HoverText">Show Details</div>
                       </a>
                     </div>
-                    <div className="ImageHoverTwo">
+                    <div className="ImageHoverTwoOfTwo">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -135,12 +136,12 @@ class Home extends Component {
                       src={natoursLogo}
                       className="ProjectImage"
                     />
-                    <div className="ImageHoverOne">
+                    <div className="ImageHoverOneOfThree">
                       <a rel="noopener noreferrer" href="/natours-project">
                         <div className="HoverText">Show Details</div>
                       </a>
                     </div>
-                    <div className="ImageHoverTwo">
+                    <div className="ImageHoverTwoOfThree">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -149,11 +150,44 @@ class Home extends Component {
                         <div className="HoverText">Github</div>
                       </a>
                     </div>
-                    <div className="ImageHoverThree">
+                    <div className="ImageHoverThreeOfThree">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://natourlandingpage.netlify.app/"
+                      >
+                        <div className="HoverText">Live Demo</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/trillo-project">
+                      Trillo
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image bordered src={trilloLogo} className="ProjectImage" />
+                    <div className="ImageHoverOneOfThree">
+                      <a rel="noopener noreferrer" href="/trillo-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwoOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/Trillo"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverThreeOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://trillolandingpage.netlify.app/"
                       >
                         <div className="HoverText">Live Demo</div>
                       </a>

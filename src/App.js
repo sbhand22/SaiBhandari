@@ -5,6 +5,7 @@ import BurgerProject from "./containers/Projects/BurgerProject/BurgerProject";
 import SlackClone from "./containers/Projects/SlackClone/SlackClone";
 import WikiMovies from "./containers/Projects/WikiMovies/WikiMovies";
 import Natours from "./containers/Projects/Natours/Natours";
+import Trillo from "./containers/Projects/Trillo/Trillo";
 import "./App.css";
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Route path="/burger-project" component={BurgerProject} />
         <Route path="/wikimovies-project" component={WikiMovies} />
         <Route path="/natours-project" component={Natours} />
+        <Route path="/trillo-project" component={Trillo} />
         <Route path="*" component={Home} />
       </Switch>
     );

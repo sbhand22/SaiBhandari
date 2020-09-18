@@ -41,9 +41,6 @@
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
   animation: revolveScale 0.4s forwards;
 }
-.WikiMoviesImageLogo {
-  margin: auto;
-}
 .WikiMoviesAbout {
   margin-top: 2.5em;
   padding: 2.5em 2.5em 3em 2.5em;
@@ -75,11 +72,6 @@
 @media (min-width: 1025px) {
   .WikiMoviesAnimation {
     font-size: 3em;
-  }
-  .WikiMoviesImageLogo {
-    width: 50%;
-    height: 50%;
-    margin: auto;
   }
   .WikiMoviesAboutHeader {
     font-size: 2em;

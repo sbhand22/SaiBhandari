@@ -29,11 +29,7 @@ class WikiMoviesProject extends Component {
               <span>e</span>
               <span>s</span>
             </b>
-            <Image
-              data-aos="fade-up"
-              className="WikiMoviesImageLogo"
-              src={WikiMoviesLogo}
-            />
+            <Image data-aos="fade-up" src={WikiMoviesLogo} />
           </div>
           <div id="about" data-aos="fade-right" className="WikiMoviesAbout">
             <h2 className="WikiMoviesAboutHeader">About:</h2>
