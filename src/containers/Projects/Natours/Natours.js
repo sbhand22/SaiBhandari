@@ -5,6 +5,8 @@ import Nav from "../../../components/Nav/Nav";
 import NatoursLogo from "../../../assets/Natours/NatoursLogo.png";
 import NatoursImage from "../../../assets/Natours/NatoursImage.png";
 import NatoursImageMobile from "../../../assets/Natours/NatoursImageMobile.png";
+import NatoursNav from "../../../assets/Natours/NatoursNav.png";
+import NatoursNavMobile from "../../../assets/Natours/NatoursNavMobile.png";
 import "./Natours.css";
 
 class Natours extends Component {
@@ -76,6 +78,16 @@ class Natours extends Component {
             data-aos="fade-left"
             className="NatoursCustomizeImageLarge"
             src={NatoursImageMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="NatoursCustomizeImageLarge"
+            src={NatoursNav}
+          />
+          <Image
+            data-aos="fade-left"
+            className="NatoursCustomizeImageLarge"
+            src={NatoursNavMobile}
           />
         </Container>
       </>
