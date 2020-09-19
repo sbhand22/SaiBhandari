@@ -6,6 +6,7 @@ import burgerPicture from "../../assets/Burger/burgerProject.png";
 import slackLogo from "../../assets/Slack/slackLogo.jpg";
 import natoursLogo from "../../assets/Natours/NatoursLogo.png";
 import trilloLogo from "../../assets/Trillo/TrilloLogo.png";
+import nexterLogo from "../../assets/Nexter/NexterLogo.png";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Home.css";
 
@@ -195,6 +196,41 @@ class Home extends Component {
                   </div>
                 </Grid.Column>
               </Grid.Row>
+              <Grid.Row>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/nexter-project">
+                      Nexter
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image bordered src={nexterLogo} className="ProjectImage" />
+                    <div className="ImageHoverOneOfThree">
+                      <a rel="noopener noreferrer" href="/nexter-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwoOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/Nexter"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverThreeOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://nexterlandingpage.netlify.app/"
+                      >
+                        <div className="HoverText">Live Demo</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+              </Grid.Row>
             </Grid>
           </div>
           <div
@@ -204,44 +240,6 @@ class Home extends Component {
           >
             <h2 className="HomeHeader">Contact:</h2>
             <ContactForm />
-            <Grid className="ContactDetails">
-              <Grid.Row>
-                <Icon size="big" disabled name="mail" />
-                <p className="HomeParagraph">
-                  Email: mohamed.hassan2498@gmail.com
-                </p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="phone" />
-                <p className="HomeParagraph"> Phone: +20 01281468213</p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="linkedin" />
-                <p className="HomeParagraph">
-                  LinkedIn:{" "}
-                  <a
-                    href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.linkedin.com/in/mohamed-hassan-4b71b4188
-                  </a>
-                </p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="github" />
-                <p className="HomeParagraph">
-                  Github:{" "}
-                  <a
-                    href="https://www.github.com/MohamedHassan2498"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.github.com/MohamedHassan2498
-                  </a>
-                </p>
-              </Grid.Row>
-            </Grid>
           </div>
         </Container>
       </>

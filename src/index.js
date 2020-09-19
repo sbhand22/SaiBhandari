@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import ScrollButton from "react-scroll-button";
 import App from "./App";
 import "./index.css";
+import Footer from "./components/Footer/Footer";
 
 function Root() {
   return (
@@ -19,6 +20,7 @@ function Root() {
         iconType={"arrow-up"}
         targetId={"root"}
       />
+      <Footer />
     </BrowserRouter>
   );
 }
