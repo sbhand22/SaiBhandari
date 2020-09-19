@@ -3,6 +3,23 @@ import { Container, Image } from "semantic-ui-react";
 import AOS from "aos";
 import Nav from "../../../components/Nav/Nav";
 import WikiMoviesLogo from "../../../assets/WikiMovies/MoviesLogo.png";
+import SigninWeb from "../../../assets/WikiMovies/SigninWeb.png";
+import SignupWeb from "../../../assets/WikiMovies/SignupWeb.png";
+import SigninMobile from "../../../assets/WikiMovies/SigninMobile.png";
+import SignupMobile from "../../../assets/WikiMovies/SignupMobile.png";
+import HomeWeb from "../../../assets/WikiMovies/HomeWeb.png";
+import HomeMobile from "../../../assets/WikiMovies/HomeMobile.png";
+import DiscoverMoviesWeb from "../../../assets/WikiMovies/DiscoverMoviesWeb.png";
+import DiscoverMoviesMobile from "../../../assets/WikiMovies/DiscoverMoviesMobile.png";
+import MovieDetailsWeb from "../../../assets/WikiMovies/MovieDetailsWeb.png";
+import MovieDetailsMobile from "../../../assets/WikiMovies/MovieDetailsMobile.png";
+import TvShowDetailsWeb from "../../../assets/WikiMovies/TvShowDetailsWeb.png";
+import TvShowDetailsMobile from "../../../assets/WikiMovies/TvShowDetailsMobile.png";
+import PopularPeopleWeb from "../../../assets/WikiMovies/PopularPeopleWeb.png";
+import PersonDetailsWeb from "../../../assets/WikiMovies/PersonDetailsWeb.png";
+import PersonDetailsMobile from "../../../assets/WikiMovies/PersonDetailsMobile.png";
+import SearchResultWeb from "../../../assets/WikiMovies/SearchResultWeb.png";
+import SearchResultMobile from "../../../assets/WikiMovies/SearchResultMobile.png";
 import "./WikiMovies.css";
 
 class WikiMoviesProject extends Component {
@@ -29,7 +46,11 @@ class WikiMoviesProject extends Component {
               <span>e</span>
               <span>s</span>
             </b>
-            <Image data-aos="fade-up" src={WikiMoviesLogo} />
+            <Image
+              data-aos="fade-up"
+              className="WikiMoviesLogoImage"
+              src={WikiMoviesLogo}
+            />
           </div>
           <div id="about" data-aos="fade-right" className="WikiMoviesAbout">
             <h2 className="WikiMoviesAboutHeader">About:</h2>
@@ -54,7 +75,94 @@ class WikiMoviesProject extends Component {
               Live demo <a href="https://wikimovies2498.netlify.app">here!</a>
             </p>
           </div>
-          Photos to be added soon
+          <p data-aos="fade-left" className="WikiMoviesPhotosParagraph">
+            Here are some photos of the project
+          </p>
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={SigninWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={SignupWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={SigninMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={SignupMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={HomeWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={HomeMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={DiscoverMoviesWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={DiscoverMoviesMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={MovieDetailsWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={MovieDetailsMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={TvShowDetailsWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={TvShowDetailsMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={PopularPeopleWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={PersonDetailsWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={PersonDetailsMobile}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageLarge"
+            src={SearchResultWeb}
+          />
+          <Image
+            data-aos="fade-left"
+            className="WikiMoviesCustomizeImageSmall"
+            src={SearchResultMobile}
+          />
         </Container>
       </>
     );

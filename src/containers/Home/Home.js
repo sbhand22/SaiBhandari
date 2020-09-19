@@ -7,6 +7,7 @@ import slackLogo from "../../assets/Slack/slackLogo.jpg";
 import natoursLogo from "../../assets/Natours/NatoursLogo.png";
 import trilloLogo from "../../assets/Trillo/TrilloLogo.png";
 import nexterLogo from "../../assets/Nexter/NexterLogo.png";
+import wikimoviesLogo from "../../assets/WikiMovies/MoviesLogo.png";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Home.css";
 
@@ -127,6 +128,43 @@ class Home extends Component {
               <Grid.Row>
                 <Grid.Column mobile={16} tablet={8} computer={8}>
                   <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/wikimovies-project">
+                      WikiMovies
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image
+                      bordered
+                      src={wikimoviesLogo}
+                      className="ProjectImage"
+                    />
+                    <div className="ImageHoverOneOfThree">
+                      <a rel="noopener noreferrer" href="/wikimovies-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwoOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/WikiMovies"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverThreeOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://wikimovies2498.netlify.app/"
+                      >
+                        <div className="HoverText">Live Demo</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
                     <a rel="noopener noreferrer" href="/natours-project">
                       Natours
                     </a>
@@ -162,39 +200,6 @@ class Home extends Component {
                     </div>
                   </div>
                 </Grid.Column>
-                <Grid.Column mobile={16} tablet={8} computer={8}>
-                  <h3 className="HomeProjectTitle">
-                    <a rel="noopener noreferrer" href="/trillo-project">
-                      Trillo
-                    </a>
-                  </h3>
-                  <div className="ProjectFirstRow">
-                    <Image bordered src={trilloLogo} className="ProjectImage" />
-                    <div className="ImageHoverOneOfThree">
-                      <a rel="noopener noreferrer" href="/trillo-project">
-                        <div className="HoverText">Show Details</div>
-                      </a>
-                    </div>
-                    <div className="ImageHoverTwoOfThree">
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/Trillo"
-                      >
-                        <div className="HoverText">Github</div>
-                      </a>
-                    </div>
-                    <div className="ImageHoverThreeOfThree">
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://trillolandingpage.netlify.app/"
-                      >
-                        <div className="HoverText">Live Demo</div>
-                      </a>
-                    </div>
-                  </div>
-                </Grid.Column>
               </Grid.Row>
               <Grid.Row>
                 <Grid.Column mobile={16} tablet={8} computer={8}>
@@ -224,6 +229,39 @@ class Home extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://nexterlandingpage.netlify.app/"
+                      >
+                        <div className="HoverText">Live Demo</div>
+                      </a>
+                    </div>
+                  </div>
+                </Grid.Column>
+                <Grid.Column mobile={16} tablet={8} computer={8}>
+                  <h3 className="HomeProjectTitle">
+                    <a rel="noopener noreferrer" href="/trillo-project">
+                      Trillo
+                    </a>
+                  </h3>
+                  <div className="ProjectFirstRow">
+                    <Image bordered src={trilloLogo} className="ProjectImage" />
+                    <div className="ImageHoverOneOfThree">
+                      <a rel="noopener noreferrer" href="/trillo-project">
+                        <div className="HoverText">Show Details</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverTwoOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/MohamedHassan2498/Trillo"
+                      >
+                        <div className="HoverText">Github</div>
+                      </a>
+                    </div>
+                    <div className="ImageHoverThreeOfThree">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://trillolandingpage.netlify.app/"
                       >
                         <div className="HoverText">Live Demo</div>
                       </a>
