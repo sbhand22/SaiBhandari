@@ -27,7 +27,11 @@ class Trillo extends Component {
               <span>l</span>
               <span>o</span>
             </b>
-            <Image data-aos="fade-up" src={TrilloLogo} />
+            <Image
+              data-aos="fade-up"
+              className="TrilloLogoImage"
+              src={TrilloLogo}
+            />
           </div>
           <div id="about" data-aos="fade-right" className="TrilloAbout">
             <h2 className="TrilloAboutHeader">About:</h2>

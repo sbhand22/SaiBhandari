@@ -27,7 +27,11 @@ class Nexter extends Component {
               <span>e</span>
               <span>r</span>
             </b>
-            <Image data-aos="fade-up" src={NexterLogo} />
+            <Image
+              data-aos="fade-up"
+              className="NexterLogoImage"
+              src={NexterLogo}
+            />
           </div>
           <div id="about" data-aos="fade-right" className="NexterAbout">
             <h2 className="NexterAboutHeader">About:</h2>

@@ -41,6 +41,9 @@
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
   animation: revolveScale 0.4s forwards;
 }
+.WikiMoviesLogoImage {
+  margin: auto;
+}
 .WikiMoviesAbout {
   margin-top: 2.5em;
   padding: 2.5em 2.5em 3em 2.5em;
@@ -68,6 +71,11 @@
   margin: auto;
   padding-bottom: 5em;
 }
+.WikiMoviesCustomizeImageSmall {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 25%;
+}
 
 @media (min-width: 1025px) {
   .WikiMoviesAnimation {
@@ -87,5 +95,10 @@
 @media (max-width: 375px) {
   .WikiMoviesAnimation {
     font-size: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .WikiMoviesCustomizeImageSmall {
+    width: 50%;
   }
 }

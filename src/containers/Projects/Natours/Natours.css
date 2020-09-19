@@ -32,6 +32,9 @@
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
   animation: revolveScale 0.4s forwards;
 }
+.NatoursLogoImage {
+  margin: auto;
+}
 .NatoursAbout {
   margin-top: 2.5em;
   padding: 2.5em 2.5em 3em 2.5em;
