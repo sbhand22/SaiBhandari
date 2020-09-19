@@ -48,6 +48,12 @@ body.dark-mode .bm-burger-bars {
 body.dark-mode .bm-burger-bars-hover {
   background: #717171;
 }
+.fgBsdG {
+  z-index: 5;
+}
+body.dark-mode .FooterStyle {
+  color: #717171;
+}
 body.dark-mode .fgBsdG {
   color: #1b2938;
 }
@@ -158,5 +164,22 @@ input[type="checkbox"].dmcheck + label {
   }
   100% {
     background-color: rgba(55, 119, 158, 1);
+  }
+}
+@keyframes ColorPulse {
+  0% {
+    color: rgba(55, 119, 158, 1);
+  }
+  25% {
+    color: rgba(155, 59, 59, 1);
+  }
+  50% {
+    color: rgba(32, 92, 55, 1);
+  }
+  75% {
+    color: rgba(155, 59, 59, 1);
+  }
+  100% {
+    color: rgba(55, 119, 158, 1);
   }
 }

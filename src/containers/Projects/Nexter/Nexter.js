@@ -42,8 +42,8 @@ class Nexter extends Component {
               </a>
             </p>
             <p className="NexterAboutParagraph">
-              Nexter is a project based on advertising for a booking website,
-              built using only HTML and CSS. The application is a single page
+              Nexter is a project based on advertising for real estate, built
+              using only HTML and CSS. The application is a single page
               application is Mobile Responsive. The Application was also built
               using SCSS and used it as a training to master css grid layout and
               advanced responsive design

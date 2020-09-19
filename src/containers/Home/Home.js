@@ -240,44 +240,6 @@ class Home extends Component {
           >
             <h2 className="HomeHeader">Contact:</h2>
             <ContactForm />
-            <Grid className="ContactDetails">
-              <Grid.Row>
-                <Icon size="big" disabled name="mail" />
-                <p className="HomeParagraph">
-                  Email: mohamed.hassan2498@gmail.com
-                </p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="phone" />
-                <p className="HomeParagraph"> Phone: +20 01281468213</p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="linkedin" />
-                <p className="HomeParagraph">
-                  LinkedIn:{" "}
-                  <a
-                    href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.linkedin.com/in/mohamed-hassan-4b71b4188
-                  </a>
-                </p>
-              </Grid.Row>
-              <Grid.Row>
-                <Icon size="big" disabled name="github" />
-                <p className="HomeParagraph">
-                  Github:{" "}
-                  <a
-                    href="https://www.github.com/MohamedHassan2498"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.github.com/MohamedHassan2498
-                  </a>
-                </p>
-              </Grid.Row>
-            </Grid>
           </div>
         </Container>
       </>

@@ -126,13 +126,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
   .Nav {
-    padding: 3rem 0rem 3rem 0rem !important;
+    padding: 3rem 0rem 3rem 0rem;
   }
+}
+@media only screen and (max-width: 560px) {
   .Navsticky {
-    padding: 0rem !important;
+    padding: 0rem;
   }
 }
 @media only screen and (max-width: 485px) {

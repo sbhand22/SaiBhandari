@@ -122,9 +122,6 @@
 .ProjectFirstRow:hover .ImageHoverThreeOfThree {
   opacity: 1;
 }
-.ContactDetails {
-  margin-left: 0px !important;
-}
 
 @media (min-width: 1023px) {
   .HomeContent {
