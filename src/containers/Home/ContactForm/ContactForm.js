@@ -82,6 +82,8 @@ class ContactForm extends React.Component {
             </Form.Field>
             <Form.Field>
               <Form.TextArea
+                className="ContactFormTextArea"
+                maxlength="1500"
                 name="message"
                 value={values.message}
                 onChange={handleChange}

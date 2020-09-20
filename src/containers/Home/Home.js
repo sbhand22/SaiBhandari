@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Image, Grid, Icon } from "semantic-ui-react";
+import ReactTooltip from "react-tooltip";
 import Nav from "../../components/Nav/Nav";
 import Header from "../../components/Header/Header";
 import burgerPicture from "../../assets/Burger/burgerProject.png";
@@ -40,7 +41,7 @@ class Home extends Component {
               that their buyers didn't receive yet due to unavailability, Here
               is my{" "}
               <a
-                href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
+                href="https://www.linkedin.com/in/mohamed-hassan98/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,12 +57,43 @@ class Home extends Component {
           >
             <h2 className="HomeHeader">Skills:</h2>
             <p className="HomeParagraph HomeSkills">
-              <Icon className="SkillEditor" name="html5" size="big" />
-              <Icon className="SkillEditor" name="css3" size="big" />
-              <Icon className="SkillEditor" name="sass" size="big" />
-              <Icon className="SkillEditor" name="js square" size="big" />
-              <Icon className="SkillEditor" name="react" size="big" />
-              <Icon className="SkillEditor" name="git" size="big" />
+              <ReactTooltip effect="solid" />
+              <Icon
+                data-tip="HTML"
+                className="SkillEditor"
+                name="html5"
+                size="big"
+              />
+              <Icon
+                data-tip="CSS"
+                className="SkillEditor"
+                name="css3"
+                size="big"
+              />
+              <Icon
+                data-tip="SASS"
+                className="SkillEditor"
+                name="sass"
+                size="big"
+              />
+              <Icon
+                data-tip="JavaScript"
+                className="SkillEditor"
+                name="js square"
+                size="big"
+              />
+              <Icon
+                data-tip="ReactJS"
+                className="SkillEditor"
+                name="react"
+                size="big"
+              />
+              <Icon
+                data-tip="Git"
+                className="SkillEditor"
+                name="git"
+                size="big"
+              />
             </p>
           </div>
           <div
@@ -93,7 +125,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/React-Burger-Project"
+                        href="https://github.com/MohamedHassan98/React-Burger-Project"
                       >
                         <div className="HoverText">Github</div>
                       </a>
@@ -117,7 +149,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/slack-clone-react"
+                        href="https://github.com/MohamedHassan98/slack-clone-react"
                       >
                         <div className="HoverText">Github</div>
                       </a>
@@ -147,7 +179,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/WikiMovies"
+                        href="https://github.com/MohamedHassan98/WikiMovies"
                       >
                         <div className="HoverText">Github</div>
                       </a>
@@ -184,7 +216,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/Natours"
+                        href="https://github.com/MohamedHassan98/Natours"
                       >
                         <div className="HoverText">Github</div>
                       </a>
@@ -219,7 +251,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/Nexter"
+                        href="https://github.com/MohamedHassan98/Nexter"
                       >
                         <div className="HoverText">Github</div>
                       </a>
@@ -252,7 +284,7 @@ class Home extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.github.com/MohamedHassan2498/Trillo"
+                        href="https://github.com/MohamedHassan98/Trillo"
                       >
                         <div className="HoverText">Github</div>
                       </a>

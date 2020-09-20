@@ -9,31 +9,36 @@ const Nav = () => {
         <ul className="FooterUl">
           <li className="FooterListItem">
             <a
-              href="https://www.github.com/MohamedHassan2498"
+              href="https://github.com/MohamedHassan98"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Icon size="large" name="github" />
-              Github
+              MohamedHassan98
             </a>
           </li>
           <li className="FooterListItem">
-            <Icon size="large" name="mail" /> mohamed.hassan2498@gmail.com
+            <a href="mailto:mohamed.hassan2498@gmail.com">
+              <Icon size="large" name="mail" /> mohamed.hassan2498@gmail.com
+            </a>
             <br />
-            <Icon size="large" name="phone" /> +2 01281468213
+            <a href="tel:+2 01281468213">
+              <Icon size="large" name="phone" /> +2 01281468213
+            </a>
           </li>
           <li className="FooterListItem">
             <a
-              href="https://www.linkedin.com/in/mohamed-hassan-4b71b4188"
+              href="https://www.linkedin.com/in/mohamed-hassan98/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Icon size="large" name="linkedin" />
-              Linkedin
+              mohamed-hassan98
             </a>
           </li>
           <li className="FooterListItem">
-            Copyright © 2020 Mohamed Hassan <br /> All rights reserved.
+            Copyright © {new Date().getFullYear()} Mohamed Hassan <br /> All
+            rights reserved.
           </li>
         </ul>
       </footer>

@@ -8,10 +8,9 @@
   list-style: none;
   z-index: 6;
   transition: all 0.3s ease-in-out;
-  padding: 3rem 5rem 3rem 5rem;
+  padding: 2rem 5rem 2rem 5rem;
 }
 .Navsticky {
-  padding: 1.5rem !important;
   background-color: rgba(255, 255, 255, 0.8);
 }
 

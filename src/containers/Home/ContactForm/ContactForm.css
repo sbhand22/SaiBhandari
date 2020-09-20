@@ -12,6 +12,9 @@
   color: red !important;
   padding-top: 1em;
 }
+.ContactFormTextArea {
+  resize: "none";
+}
 .ContactFormButton {
   display: block !important;
   margin: auto !important;
