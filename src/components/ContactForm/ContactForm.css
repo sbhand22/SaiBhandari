@@ -24,4 +24,8 @@
   margin-top: 2em !important;
   border-radius: 30px !important;
   animation: ButtonPulse 4s infinite ease-in-out;
+  transition: transform 0.5s !important;
+}
+.ContactFormButton:hover {
+  transform: translateY(-0.25rem) scale(1.03);
 }

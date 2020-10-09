@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import Home from "./containers/Home/Home";
-import BurgerProject from "./containers/Projects/BurgerProject/BurgerProject";
-import SlackClone from "./containers/Projects/SlackClone/SlackClone";
-import WikiMovies from "./containers/Projects/WikiMovies/WikiMovies";
-import Natours from "./containers/Projects/Natours/Natours";
-import Trillo from "./containers/Projects/Trillo/Trillo";
-import Nexter from "./containers/Projects/Nexter/Nexter";
+import Home from "./components/Home/Home";
+import BurgerProject from "./components/BurgerProject/BurgerProject";
+import SlackClone from "./components/SlackClone/SlackClone";
+import WikiMovies from "./components/WikiMovies/WikiMovies";
+import Natours from "./components/Natours/Natours";
+import Trillo from "./components/Trillo/Trillo";
+import Nexter from "./components/Nexter/Nexter";
 import "./App.css";
 
 class App extends Component {
