@@ -10,6 +10,7 @@ import natoursLogo from "../../assets/Natours/NatoursLogo.png";
 import trilloLogo from "../../assets/Trillo/TrilloLogo.png";
 import nexterLogo from "../../assets/Nexter/NexterLogo.png";
 import wikimoviesLogo from "../../assets/WikiMovies/MoviesLogo.png";
+import snuggsLogo from "../../assets/SnuggsCommerce/SnuggsLogo.png";
 import ContactForm from "../ContactForm/ContactForm";
 import "./Home.css";
 
@@ -129,7 +130,7 @@ const Home = () => {
                   />
                   <div className="ImageHoverOneofTwo">
                     <a rel="noopener noreferrer" href="/burger-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfTwo">
@@ -138,7 +139,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/React-Burger-Project"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                 </div>
@@ -153,7 +154,7 @@ const Home = () => {
                   <Image bordered className="ProjectImage" src={slackLogo} />
                   <div className="ImageHoverOneofTwo">
                     <a rel="noopener noreferrer" href="/slack-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfTwo">
@@ -162,7 +163,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/slack-clone-react"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                 </div>
@@ -183,7 +184,7 @@ const Home = () => {
                   />
                   <div className="ImageHoverOneOfThree">
                     <a rel="noopener noreferrer" href="/wikimovies-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfThree">
@@ -192,7 +193,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/WikiMovies"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                   <div className="ImageHoverThreeOfThree">
@@ -201,11 +202,49 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://wikimovies2498.netlify.app/"
                     >
-                      <div className="HoverText">Live Demo</div>
+                      <span className="HoverText">Live Demo</span>
                     </a>
                   </div>
                 </div>
               </Grid.Column>
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <h3 className="HomeProjectTitle">
+                  <a rel="noopener noreferrer" href="/snuggs-commerce-project">
+                    Snuggs Commerce
+                  </a>
+                </h3>
+                <div className="ProjectFirstRow">
+                  <Image bordered src={snuggsLogo} className="ProjectImage" />
+                  <div className="ImageHoverOneOfThree">
+                    <a
+                      rel="noopener noreferrer"
+                      href="/snuggs-commerce-project"
+                    >
+                      <span className="HoverText">Show Details</span>
+                    </a>
+                  </div>
+                  <div className="ImageHoverTwoOfThree">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/MohamedHassan98/E-Commerce"
+                    >
+                      <span className="HoverText">Github</span>
+                    </a>
+                  </div>
+                  <div className="ImageHoverThreeOfThree">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://snuggs-commerce.netlify.app/"
+                    >
+                      <span className="HoverText">Live Demo</span>
+                    </a>
+                  </div>
+                </div>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <h3 className="HomeProjectTitle">
                   <a rel="noopener noreferrer" href="/natours-project">
@@ -216,7 +255,7 @@ const Home = () => {
                   <Image bordered src={natoursLogo} className="ProjectImage" />
                   <div className="ImageHoverOneOfThree">
                     <a rel="noopener noreferrer" href="/natours-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfThree">
@@ -225,7 +264,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/Natours"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                   <div className="ImageHoverThreeOfThree">
@@ -234,13 +273,11 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://natourlandingpage.netlify.app/"
                     >
-                      <div className="HoverText">Live Demo</div>
+                      <span className="HoverText">Live Demo</span>
                     </a>
                   </div>
                 </div>
               </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <h3 className="HomeProjectTitle">
                   <a rel="noopener noreferrer" href="/nexter-project">
@@ -251,7 +288,7 @@ const Home = () => {
                   <Image bordered src={nexterLogo} className="ProjectImage" />
                   <div className="ImageHoverOneOfThree">
                     <a rel="noopener noreferrer" href="/nexter-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfThree">
@@ -260,7 +297,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/Nexter"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                   <div className="ImageHoverThreeOfThree">
@@ -269,11 +306,13 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://nexterlandingpage.netlify.app/"
                     >
-                      <div className="HoverText">Live Demo</div>
+                      <span className="HoverText">Live Demo</span>
                     </a>
                   </div>
                 </div>
               </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <h3 className="HomeProjectTitle">
                   <a rel="noopener noreferrer" href="/trillo-project">
@@ -284,7 +323,7 @@ const Home = () => {
                   <Image bordered src={trilloLogo} className="ProjectImage" />
                   <div className="ImageHoverOneOfThree">
                     <a rel="noopener noreferrer" href="/trillo-project">
-                      <div className="HoverText">Show Details</div>
+                      <span className="HoverText">Show Details</span>
                     </a>
                   </div>
                   <div className="ImageHoverTwoOfThree">
@@ -293,7 +332,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://github.com/MohamedHassan98/Trillo"
                     >
-                      <div className="HoverText">Github</div>
+                      <span className="HoverText">Github</span>
                     </a>
                   </div>
                   <div className="ImageHoverThreeOfThree">
@@ -302,7 +341,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href="https://trillolandingpage.netlify.app/"
                     >
-                      <div className="HoverText">Live Demo</div>
+                      <span className="HoverText">Live Demo</span>
                     </a>
                   </div>
                 </div>
