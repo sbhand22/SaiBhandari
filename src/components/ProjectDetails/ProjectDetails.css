@@ -112,7 +112,7 @@
   }
   @media (max-width: 375px) {
     .ProjectDetailsAnimation {
-      font-size: 2em;
+      font-size: 1.75em;
     }
   }
   @media (max-width: 768px) {
