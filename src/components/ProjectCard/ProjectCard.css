@@ -1,0 +1,80 @@
+.ProjectRow {
+    margin-bottom: 3em;
+  }
+
+.ProjectCard {
+    width: 100% !important;
+}
+
+.ProjectImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.ProjectTitle {
+    font-size: 1.5em;
+  }
+
+.ProjectCardDescription {
+    font-weight: bold;
+}
+
+.ProjectCardContent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ProjectButtons {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 16px 25px;
+    background-color: #2a7454;
+    background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+  }
+.ProjectButtons:hover {
+    transform: translateY(-0.25rem) scale(1.03);
+    background-position: right center;
+}
+  
+@media (max-width: 1199px) {
+.ProjectButtons {
+    padding: 10px 15px;
+    }
+} 
+
+@media (max-width: 991px) {
+.ProjectCardContent{
+    flex-direction: column;
+    }
+
+.ProjectButtons {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    }
+} 
+
+@media (max-width: 767px){
+.ProjectCardContent{
+    flex-direction: row;
+    }
+}
+
+@media (max-width: 500px){
+.ProjectCardContent{
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 1023px) {
+.ProjectRow {
+    margin-bottom: 0em;
+    }
+}

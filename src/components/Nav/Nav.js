@@ -32,7 +32,8 @@ const Nav = (props) => {
                     to="root"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    href="/"
+                    activeclass={classes.active}
                   >
                     Home
                   </Link>
@@ -43,7 +44,8 @@ const Nav = (props) => {
                     to="about"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    href="/"
+                    activeclass={classes.active}
                   >
                     About
                   </Link>
@@ -54,7 +56,8 @@ const Nav = (props) => {
                     to="skills"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    href="/"
+                    activeclass={classes.active}
                   >
                     Skills
                   </Link>
@@ -65,7 +68,8 @@ const Nav = (props) => {
                     to="projects"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    href="/"
+                    activeclass={classes.active}
                   >
                     Projects
                   </Link>
@@ -76,7 +80,8 @@ const Nav = (props) => {
                     to="contact"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    href="/"
+                    activeclass={classes.active}
                   >
                     Contact
                   </Link>
@@ -88,7 +93,7 @@ const Nav = (props) => {
             ) : (
               <ul className={NavClass}>
                 <li className="NavItem">
-                  <a className="NavLink" href="/" activeClass={classes.active}>
+                  <a className="NavLink" href="/" activeclass={classes.active}>
                     Home
                   </a>
                 </li>
@@ -96,7 +101,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#about"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     About
                   </a>
@@ -105,7 +110,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#skills"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Skills
                   </a>
@@ -114,7 +119,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#projects"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Projects
                   </a>
@@ -123,7 +128,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#contact"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Contact
                   </a>
@@ -148,7 +153,7 @@ const Nav = (props) => {
                     to="root"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Home
                   </Link>
@@ -159,7 +164,7 @@ const Nav = (props) => {
                     to="about"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     About
                   </Link>
@@ -170,7 +175,7 @@ const Nav = (props) => {
                     to="skills"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Skills
                   </Link>
@@ -181,7 +186,7 @@ const Nav = (props) => {
                     to="projects"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Projects
                   </Link>
@@ -192,7 +197,7 @@ const Nav = (props) => {
                     to="contact"
                     smooth={true}
                     duration={500}
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Contact
                   </Link>
@@ -204,7 +209,7 @@ const Nav = (props) => {
             ) : (
               <ul>
                 <li className="NavItem">
-                  <a className="NavLink" href="/" activeClass={classes.active}>
+                  <a className="NavLink" href="/" activeclass={classes.active}>
                     Home
                   </a>
                 </li>
@@ -212,7 +217,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#about"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     About
                   </a>
@@ -221,7 +226,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#skills"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Skills
                   </a>
@@ -230,7 +235,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#projects"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Projects
                   </a>
@@ -239,7 +244,7 @@ const Nav = (props) => {
                   <a
                     className="NavLink"
                     href="/#contact"
-                    activeClass={classes.active}
+                    activeclass={classes.active}
                   >
                     Contact
                   </a>

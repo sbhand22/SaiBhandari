@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Icon } from "semantic-ui-react";
 import Typewriter from "typewriter-effect";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -11,8 +12,7 @@ const Header = () => {
     });
   }, []);
   return (
-    <header id="home" className="header">
-      {" "}
+    <header id="home" className="homeHeader">
       <div className="heroHeaderContainer">
         <h1 data-aos="fade-up" className="headerHero">
           Hello,
@@ -30,6 +30,28 @@ const Header = () => {
               }}
             />
           </span>
+          <a
+            aria-label="Github Link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/MohamedHassan98"
+          >
+            <Icon name="github" />
+          </a>
+          <a
+            aria-label="LinkedIn Link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/mohamed-hassan98/"
+          >
+            <Icon name="linkedin" />
+          </a>
+          <a aria-label="Email Link" href="mailto:mohamed.hassan2498@gmail.com">
+            <Icon name="mail" />
+          </a>
+          <a aria-label="Phone Link" href="tel:+2 01281468213">
+            <Icon name="phone" />
+          </a>
         </h2>
       </div>
     </header>

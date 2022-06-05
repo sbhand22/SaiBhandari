@@ -1,16 +1,10 @@
 import React from "react";
-import { Container, Image, Grid, Icon } from "semantic-ui-react";
-import ReactTooltip from "react-tooltip";
+import { Container, Icon } from "semantic-ui-react";
 import { ToastContainer, Flip } from "react-toastify";
 import Nav from "../Nav/Nav";
 import Header from "../Header/Header";
-import burgerPicture from "../../assets/Burger/burgerProject.png";
-import slackLogo from "../../assets/Slack/slackLogo.jpg";
-import natoursLogo from "../../assets/Natours/NatoursLogo.png";
-import trilloLogo from "../../assets/Trillo/TrilloLogo.png";
-import nexterLogo from "../../assets/Nexter/NexterLogo.png";
-import wikimoviesLogo from "../../assets/WikiMovies/MoviesLogo.png";
-import snuggsLogo from "../../assets/SnuggsCommerce/SnuggsLogo.png";
+import Skills from "../Skills/Skills";
+import ProjectGrid from "../ProjectGrid/ProjectGrid";
 import ContactForm from "../ContactForm/ContactForm";
 import "./Home.css";
 
@@ -37,11 +31,13 @@ const Home = () => {
           id="about"
           className="HomeContent HomePadding"
         >
-          <h2 className="HomeHeader">About:</h2>
+          <h2 className="HomeHeaders">
+            <Icon name="user" size="large" /> About:
+          </h2>
           <p className="HomeParagraph">
-            I am currently a student at Faculty of Engineering, Alexandria
-            University, Communication Department , I have previous experience in
-            the front-end field as I was an intern at{" "}
+            I'm currently a student at Faculty of Engineering, Alexandria
+            University, Electronics &amp; Communication Department, I have
+            previous experience in the front-end field as I was an intern at{" "}
             <a
               href="https://bosta.co/"
               target="_blank"
@@ -59,7 +55,7 @@ const Home = () => {
             >
               Linkedin
             </a>{" "}
-            account
+            account.
           </p>
         </div>
         <div
@@ -67,294 +63,29 @@ const Home = () => {
           id="skills"
           className="HomeContent HomePadding"
         >
-          <h2 className="HomeHeader">Skills:</h2>
-          <p className="HomeParagraph HomeSkills">
-            <ReactTooltip effect="solid" />
-            <Icon
-              data-tip="HTML"
-              className="SkillEditor"
-              name="html5"
-              size="big"
-            />
-            <Icon
-              data-tip="CSS"
-              className="SkillEditor"
-              name="css3"
-              size="big"
-            />
-            <Icon
-              data-tip="SASS"
-              className="SkillEditor"
-              name="sass"
-              size="big"
-            />
-            <Icon
-              data-tip="JavaScript"
-              className="SkillEditor"
-              name="js square"
-              size="big"
-            />
-            <Icon
-              data-tip="ReactJS"
-              className="SkillEditor"
-              name="react"
-              size="big"
-            />
-            <Icon
-              data-tip="Git"
-              className="SkillEditor"
-              name="git"
-              size="big"
-            />
-          </p>
+          <h2 className="HomeHeaders">
+            <Icon name="code" size="large" /> Skills:
+          </h2>
+          <Skills />
         </div>
         <div
           data-aos="fade-left"
           id={`projects`}
           className="HomeContent HomePadding"
         >
-          <h2 className="HomeHeader">Projects:</h2>
-          <Grid>
-            <Grid.Row>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/burger-project">
-                    Burger Builder
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image
-                    bordered
-                    src={burgerPicture}
-                    className="ProjectImage"
-                  />
-                  <div className="ImageHoverOneofTwo">
-                    <a rel="noopener noreferrer" href="/burger-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfTwo">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/React-Burger-Project"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/slack-project">
-                    Slack Clone
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image bordered className="ProjectImage" src={slackLogo} />
-                  <div className="ImageHoverOneofTwo">
-                    <a rel="noopener noreferrer" href="/slack-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfTwo">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/slack-clone-react"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/wikimovies-project">
-                    WikiMovies
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image
-                    bordered
-                    src={wikimoviesLogo}
-                    className="ProjectImage"
-                  />
-                  <div className="ImageHoverOneOfThree">
-                    <a rel="noopener noreferrer" href="/wikimovies-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/WikiMovies"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverThreeOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://wikimovies2498.netlify.app/"
-                    >
-                      <span className="HoverText">Live Demo</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/snuggs-commerce-project">
-                    Snuggs Commerce
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image bordered src={snuggsLogo} className="ProjectImage" />
-                  <div className="ImageHoverOneOfThree">
-                    <a
-                      rel="noopener noreferrer"
-                      href="/snuggs-commerce-project"
-                    >
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/E-Commerce"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverThreeOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://snuggs-commerce.netlify.app/"
-                    >
-                      <span className="HoverText">Live Demo</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/natours-project">
-                    Natours
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image bordered src={natoursLogo} className="ProjectImage" />
-                  <div className="ImageHoverOneOfThree">
-                    <a rel="noopener noreferrer" href="/natours-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/Natours"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverThreeOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://natourlandingpage.netlify.app/"
-                    >
-                      <span className="HoverText">Live Demo</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/nexter-project">
-                    Nexter
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image bordered src={nexterLogo} className="ProjectImage" />
-                  <div className="ImageHoverOneOfThree">
-                    <a rel="noopener noreferrer" href="/nexter-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/Nexter"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverThreeOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://nexterlandingpage.netlify.app/"
-                    >
-                      <span className="HoverText">Live Demo</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
-              <Grid.Column mobile={16} tablet={8} computer={8}>
-                <h3 className="HomeProjectTitle">
-                  <a rel="noopener noreferrer" href="/trillo-project">
-                    Trillo
-                  </a>
-                </h3>
-                <div className="ProjectFirstRow">
-                  <Image bordered src={trilloLogo} className="ProjectImage" />
-                  <div className="ImageHoverOneOfThree">
-                    <a rel="noopener noreferrer" href="/trillo-project">
-                      <span className="HoverText">Show Details</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverTwoOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/MohamedHassan98/Trillo"
-                    >
-                      <span className="HoverText">Github</span>
-                    </a>
-                  </div>
-                  <div className="ImageHoverThreeOfThree">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://trillolandingpage.netlify.app/"
-                    >
-                      <span className="HoverText">Live Demo</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
+          <h2 className="HomeHeaders">
+            <Icon name="laptop" size="large" /> Projects:
+          </h2>
+          <ProjectGrid />
         </div>
         <div
           data-aos="fade-down"
           id="contact"
           className="HomeContent HomePadding"
         >
-          <h2 className="HomeHeader">Contact:</h2>
+          <h2 className="HomeHeaders">
+            <Icon name="mail" size="large" /> Contact:
+          </h2>
           <ContactForm />
         </div>
       </Container>

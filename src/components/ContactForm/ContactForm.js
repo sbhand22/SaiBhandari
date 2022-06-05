@@ -49,12 +49,12 @@ const ContactForm = () => {
         email: "",
         message: "",
       }}
-      render={({
+    >
+      {({
         handleSubmit,
         handleChange,
         values,
         touched,
-        isInvalid,
         handleBlur,
         errors,
       }) => (
@@ -70,7 +70,6 @@ const ContactForm = () => {
               name="name"
               value={values.name}
               onChange={handleChange}
-              isInvalid={!!errors.name && !!touched.name}
               type="name"
               onBlur={handleBlur}
             />
@@ -84,7 +83,6 @@ const ContactForm = () => {
               name="email"
               value={values.email}
               onChange={handleChange}
-              isInvalid={!!errors.email && !!touched.email}
               type="email"
               onBlur={handleBlur}
             />
@@ -95,11 +93,10 @@ const ContactForm = () => {
           <Form.Field>
             <Form.TextArea
               className="ContactFormTextArea"
-              maxlength="3000"
+              maxLength="3000"
               name="message"
               value={values.message}
               onChange={handleChange}
-              isInvalid={!!errors.message && !!touched.message}
               onBlur={handleBlur}
               placeholder="Type the message here"
             />
@@ -112,7 +109,7 @@ const ContactForm = () => {
           </Button>
         </Form>
       )}
-    />
+    </Formik>
   );
 };
 
