@@ -53,7 +53,7 @@ const projectDatas = [
   },
   {
     projectName: "Nexter",
-    briefDescription: "Nexter is a landing page advertising for real estate",
+    briefDescription: "Nexter is a landing page advertising for real estate.",
     projectGithub: "https://github.com/MohamedHassan98/Nexter",
     projectUrl: "/nexter-project",
     projectImage:
@@ -63,7 +63,7 @@ const projectDatas = [
   {
     projectName: "Trillo",
     briefDescription:
-      "Trillo is a landing page advertising for a booking website",
+      "Trillo is a landing page advertising for a booking website.",
     projectGithub: "https://github.com/MohamedHassan98/Trillo",
     projectUrl: "/trillo-project",
     projectImage:

@@ -7,7 +7,9 @@
 > **Portfolio** is a portfolio website built with **ReactJS**
 
 ### 👨‍💻 Technical Overview For the Project
+
 **Technologies & Tools used :**
+
 - ReactJS
 - Semantic UI
 - HTML
@@ -16,22 +18,23 @@
 <hr>
 
 ### 🌍 General Overview For the Project
- **This is a portfolio website, It consists of 2 pages**
 
+**This is a portfolio website, It consists of 2 pages**
 
 - Home page
   - a welcome page and showcasing of the languages I know and projects I have done.
 - Project Details Page
-  - a page showing all the selected project's details and photos. 
-<hr>
+  - a page showing all the selected project's details and photos.
+  <hr>
 
 ### 📄 Pictures of the website:
+
 <p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-contact-form-98.appspot.com/o/PortfolioHomePage.png?alt=media">
+<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/READMEs%20Photos%2FPortfolioPage1.png?alt=media">
 </p>
 
 <hr>
 
 <p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-contact-form-98.appspot.com/o/ProjectDetailsPage.png?alt=media">
+<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/READMEs%20Photos%2FPortfolioPage2.png?alt=media">
 </p>
