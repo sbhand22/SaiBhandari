@@ -5,10 +5,7 @@ import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import "./App.css";
 
 /*  TODOS:
-      1. Add proper Experience and Education sections in Home page
-      2. Improve About section in Home page
-      3. Get more creative with the navigation bar
-
+      1. Get more creative with the navigation bar
 */
 
 class App extends Component {

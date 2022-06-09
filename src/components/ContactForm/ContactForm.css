@@ -1,12 +1,6 @@
 .ContactFormStyle {
-  margin-bottom: 4em;
   padding-left: 1em;
   padding-right: 1em;
-}
-.ButtonWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .ContactFormLabel {
   color: red !important;
@@ -23,9 +17,15 @@
   padding: 1.5rem 3.5rem !important;
   margin-top: 2em !important;
   border-radius: 30px !important;
-  animation: ButtonPulse 4s infinite ease-in-out;
+  animation: ButtonPulse 10s infinite ease-in-out;
   transition: transform 0.5s !important;
 }
 .ContactFormButton:hover {
   transform: translateY(-0.25rem) scale(1.03);
 }
+
+@media (max-width: 500px) {
+  .ContactFormButton {
+      padding: 1.2rem 2rem !important;
+      }
+  } 

@@ -5,6 +5,29 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Header.css";
 
+const iconsArray = [
+  {
+    iconName: "github",
+    iconHref: "https://github.com/MohamedHassan98",
+    iconAriaLabel: "Github Link",
+  },
+  {
+    iconName: "linkedin",
+    iconHref: "https://www.linkedin.com/in/mohamed-hassan98/",
+    iconAriaLabel: "LinkedIn Link",
+  },
+  {
+    iconName: "mail",
+    iconHref: "mailto:mohamed.hassan2498@gmail.com",
+    iconAriaLabel: "Email Link",
+  },
+  {
+    iconName: "phone",
+    iconHref: "tel:+2 01281468213",
+    iconAriaLabel: "Phone Link",
+  },
+];
+
 const Header = () => {
   useEffect(() => {
     Aos.init({
@@ -30,28 +53,25 @@ const Header = () => {
               }}
             />
           </span>
-          <a
-            aria-label="Github Link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/MohamedHassan98"
-          >
-            <Icon name="github" />
-          </a>
-          <a
-            aria-label="LinkedIn Link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/mohamed-hassan98/"
-          >
-            <Icon name="linkedin" />
-          </a>
-          <a aria-label="Email Link" href="mailto:mohamed.hassan2498@gmail.com">
-            <Icon name="mail" />
-          </a>
-          <a aria-label="Phone Link" href="tel:+2 01281468213">
-            <Icon name="phone" />
-          </a>
+          {iconsArray.map((iconArray) => (
+            <a
+              aria-label={iconArray.iconAriaLabel}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={iconArray.iconHref}
+            >
+              <Icon
+                name={iconArray.iconName}
+                size={
+                  window.innerWidth <= 450
+                    ? "tiny"
+                    : window.innerWidth <= 860
+                    ? "small"
+                    : null
+                }
+              />
+            </a>
+          ))}
         </h2>
       </div>
     </header>

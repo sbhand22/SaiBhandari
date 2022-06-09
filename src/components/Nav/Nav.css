@@ -29,14 +29,6 @@
   transition: color 0.3s ease-in-out;
   cursor: pointer;
 }
-.NavMH {
-  transform: rotate(0deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-.NavMH:hover {
-  transform: rotate(360deg);
-}
 .NavLink:hover {
   color: #2d9a8a;
 }
@@ -59,10 +51,10 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+  width: 30px;
+  height: 25px;
+  left: 15px;
+  top: 20px;
 }
 
 /* Color/shape of burger icon bars */
@@ -93,14 +85,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
-  width: 250px !important;
+  width: 200px !important;
 }
 
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  padding: 2em 0 0;
+  font-size: 1em;
 }
 
 /* Morph shape necessary with bubble or elastic */

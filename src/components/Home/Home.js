@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Icon } from "semantic-ui-react";
+import { Container, Icon, Label, Grid } from "semantic-ui-react";
 import { ToastContainer, Flip } from "react-toastify";
 import Nav from "../Nav/Nav";
 import Header from "../Header/Header";
@@ -35,28 +35,85 @@ const Home = () => {
             <Icon name="user" size="large" /> About:
           </h2>
           <p className="HomeParagraph">
-            I'm currently a student at Faculty of Engineering, Alexandria
-            University, Electronics &amp; Communication Department, I have
-            previous experience in the front-end field as I was an intern at{" "}
-            <a
-              href="https://bosta.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Bosta
-            </a>{" "}
-            for 4 months, I built a website using ReactJS , Redux and Bootstrap
-            UI about sold items left in stations monitored by Bosta that their
-            buyers didn't receive yet due to unavailability, Here is my{" "}
-            <a
-              href="https://www.linkedin.com/in/mohamed-hassan98/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin
-            </a>{" "}
-            account.
+            A technology nerd, who loves to seek more knowledge about anything
+            related to the front-end field, currently a senior student at the
+            Faculty of Engineering, Electronics &amp; Communication Department.
           </p>
+          <Grid>
+            <Grid.Row>
+              <Grid.Column
+                textAlign="center"
+                mobile={16}
+                tablet={8}
+                computer={8}
+              >
+                <h2>Education:</h2>
+                <div className=" AboutSubSectionContent">
+                  <h3>
+                    <Icon name="book" /> Alexandria University
+                  </h3>
+                  <h4>
+                    Electronics &amp; Communication Department
+                    <Label
+                      className="AboutSubSectionUniLabel"
+                      as="p"
+                      color="blue"
+                      circular="true"
+                    >
+                      Sep 2017 - July 2022
+                    </Label>
+                  </h4>
+                </div>
+                <div className=" AboutSubSectionContent">
+                  <h3>
+                    <Icon name="book" />
+                    High School
+                  </h3>
+                  <h4>
+                    Victory College, IGCSE Department
+                    <Label
+                      className="AboutSubSectionSchoolLabel"
+                      as="p"
+                      color="blue"
+                      circular="true"
+                    >
+                      Class of 2017
+                    </Label>
+                  </h4>
+                </div>
+              </Grid.Column>
+              <Grid.Column
+                textAlign="center"
+                mobile={16}
+                tablet={8}
+                computer={8}
+              >
+                <h2>Experience:</h2>
+                <div className=" AboutSubSectionContent">
+                  <h3>
+                    <Icon name="briefcase" /> Front-End Engineer Intern
+                  </h3>
+                  <h4>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://bosta.co"
+                    >
+                      Bosta
+                    </a>
+                    <Label
+                      className="AboutSubSectionExpLabel"
+                      as="p"
+                      color="blue"
+                      circular="true"
+                    >
+                      July 2019 - October 2019
+                    </Label>
+                  </h4>
+                </div>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
         </div>
         <div
           data-aos="fade-right"
