@@ -3,51 +3,67 @@
     font-size: 2.5em;
     text-align: center;
   }
+  
   .ProjectDetailsAnimation span {
     display: inline-block;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(2) {
     animation-delay: 0.05s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(3) {
     animation-delay: 0.1s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(4) {
     animation-delay: 0.15s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(5) {
     animation-delay: 0.2s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(6) {
     animation-delay: 0.25s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(7) {
     animation-delay: 0.3s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(8) {
     animation-delay: 0.35s;
   }
+
   .ProjectDetailsAnimation span:nth-of-type(9) {
     animation-delay: 0.4s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(10) {
     animation-delay: 0.45s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(11) {
     animation-delay: 0.5s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(12) {
     animation-delay: 0.55s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(13) {
     animation-delay: 0.6s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(14) {
     animation-delay: 0.65s;
   }
+  
   .ProjectDetailsAnimation span:nth-of-type(15) {
     animation-delay: 0.70s;
   }
+  
   .ProjectDetailsAnimationSpan span {
     color: black;
     padding-top: 2em;
@@ -56,9 +72,11 @@
     transform: translate(-150px, -50px) rotate(-180deg) scale(3);
     animation: revolveScale 0.4s forwards;
   }
+  
   .ProjectLogo {
     margin: auto;
   }
+  
   .ProjectAbout {
     margin-top: 2.5em;
     padding: 2.5em 2.5em 3em 2.5em;
@@ -66,55 +84,68 @@
     margin-bottom: 5em;
     animation: Pulse 4s infinite ease-in-out;
   }
+  
   .ProjectAbout:last-child {
     margin-bottom: 2.5em;
   }
+  
   .ProjectAboutHeader {
     padding-bottom: 2em;
     font-size: 1.5em;
   }
+  
   .ProjectAboutParagraph {
     font-size: 1em;
     word-spacing: 4px;
   }
+  
   .ProjectPhotosParagraph {
     font-size: 1.2em;
     padding-left: 1.5em;
     padding-bottom: 2em;
   }
+  
   .ProjectDetailsImageSmall {
     margin: auto;
     padding-bottom: 5em;
     width: 25% !important;
   }
+  
   .ProjectDetailsImageLarge {
     margin: auto;
     padding-bottom: 5em;
   }
+  
   @media (min-width: 1025px) {
     .ProjectDetailsAnimation {
       font-size: 3em;
     }
+    
     .ProjectDetailsImageSmall {
       width: 50%;
       height: 50%;
     }
+    
     .ProjectAboutHeader {
       font-size: 2em;
     }
+    
     .ProjectAboutParagraph {
       font-size: 1.5em;
       padding: 0 2em;
     }
+    
     .ProjectPhotosParagraph {
       font-size: 1.5em;
     }
   }
+
   @media (max-width: 375px) {
     .ProjectDetailsAnimation {
       font-size: 1.75em;
     }
   }
+  
   @media (max-width: 768px) {
     .ProjectDetailsImageSmall {
       width: 50%;

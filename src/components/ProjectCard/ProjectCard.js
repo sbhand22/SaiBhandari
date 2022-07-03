@@ -37,6 +37,7 @@ const ProjectCard = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             href={props.projectData.projectGithub}
+            style={{width:"fit-content"}}
           >
             <button className="ProjectButtons">
               Github <Icon name="github" size="large" />

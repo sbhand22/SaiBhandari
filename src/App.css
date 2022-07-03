@@ -2,12 +2,19 @@ html body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
 }
+
+body.dark-mode .AboutSubSectionContent{
+  box-shadow: 0 0 5px 5px grey;
+}
+
 body.dark-mode .navbar {
   background-color: #1b2938;
 }
+
 body.dark-mode .dark-mode-toggle > button {
   color: #999;
 }
+
 body.dark-mode .dark-mode-toggle > button:last-child {
   color: lightblue;
 }
@@ -15,57 +22,73 @@ body.dark-mode .dark-mode-toggle > button:last-child {
 body.dark-mode .content code {
   background-color: #1b2938;
 }
+
 body.dark-mode .content a {
   color: #ee0 9;
 }
+
 body.dark-mode .content button {
   color: #ee0 9;
 }
+
 body.dark-mode .ProjectDetailsAnimation span {
   color: white;
 }
+
 body.dark-mode .Navsticky {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 body.dark-mode .bm-burger-bars {
   background: #717171;
 }
+
 body.dark-mode .bm-burger-bars-hover {
   background: #717171;
 }
+
 body.dark-mode .ui .card {
 box-shadow: 0 1px 3px 0 #085078, 0 0 0 1px #85D8CE;
 }
+
 body.dark-mode .ProjectCard {
   color: white;
   background-color: #10171d;
 }
+
 body.dark-mode .ProjectCardDescription {
   color: white !important;
 }
+
 .fgBsdG {
   z-index: 5;
 }
+
 body.dark-mode .FooterStyle {
   color: #dfdfdf;
   background-color: #333;
 }
+
 body.dark-mode .fgBsdG {
   color: #1b2938;
 }
+
 body.dark-mode .ui.form .field .ui.input input,
 .ui.form .fields .field .ui.input input {
   color: white;
   background: black;
 }
+
 body.dark-mode .ui.form textarea {
   color: white;
   background: black;
 }
+
 .dark-mode-toggle {
   display: flex;
   margin: 0 auto;
 }
+
 .dark-mode-toggle > button {
   font-size: 1.2em;
   background: none;
@@ -74,18 +97,22 @@ body.dark-mode .ui.form textarea {
   cursor: pointer;
   transition: color 0.3s ease;
 }
+
 .dark-mode-toggle > button:last-child {
   color: #666;
 }
+
 .dark-mode-toggle > button:focus {
   outline: none;
 }
+
 .toggle-control {
   position: relative;
   padding: 0 4px;
   display: flex;
   align-items: center;
 }
+
 input[type="checkbox"].dmcheck {
   width: 40px;
   height: 10px;
@@ -99,12 +126,15 @@ input[type="checkbox"].dmcheck {
   vertical-align: 2px;
   outline: none;
 }
+
 input[type="checkbox"].dmcheck:checked + label {
   left: 30px;
 }
+
 input[type="checkbox"].dmcheck:focus-visible {
   outline: solid 2px white;
 }
+
 input[type="checkbox"].dmcheck + label {
   display: inline-block;
   width: 18px;
@@ -128,6 +158,7 @@ input[type="checkbox"].dmcheck + label {
     opacity: 1;
   }
 }
+
 @keyframes Pulse {
   0% {
     box-shadow: 0px 0px 37px 2px rgba(55, 119, 158, 1);
@@ -145,6 +176,7 @@ input[type="checkbox"].dmcheck + label {
     box-shadow: 0px 0px 37px 2px rgba(55, 119, 158, 1);
   }
 }
+
 @keyframes ButtonPulse {
   0% {
     background-color: rgba(55, 119, 158, 1);

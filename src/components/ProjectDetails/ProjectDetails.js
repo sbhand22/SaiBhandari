@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Image } from "semantic-ui-react";
 import axios from "axios";
@@ -7,16 +7,21 @@ import Nav from "../Nav/Nav";
 import "./ProjectDetails.css";
 
 const ProjectDetails = () => {
+  let projectTitle = useRef(() => {});
   let [projectDetails, setProjectDetails] = useState([]);
   const locationUrl = useLocation();
-  const projectTitle = locationUrl.pathname.slice(1);
-  useEffect(() => {
+  projectTitle = locationUrl.pathname.slice(1);
+
+  const fetchProjectDetails = () => {
     axios
       .get(
         `https://portfolio-ee47d-default-rtdb.firebaseio.com/%22projects%22/%22${projectTitle}%22.json`
       )
       .then((response) => setProjectDetails(response.data))
       .catch((err) => console.log(err));
+  };
+  useEffect(() => {
+    fetchProjectDetails();
     AOS.init({
       duration: 1000,
     });

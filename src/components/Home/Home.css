@@ -3,44 +3,53 @@
   padding-bottom: 2em;
   padding-right: 1.5em;
 }
+
 .HomePadding {
   margin-top: 2.5em;
   padding-top: 2.5em;
   border-radius: 30px;
   animation: Pulse 10s infinite ease-in-out;
 }
+
 .HomePadding:last-child {
   margin-bottom: 2.5em;
 }
+
 .HomeHeaders {
-  filter: drop-shadow(5px 5px 4px grey);
+  text-shadow: 2px 2px 5px grey;
   color: #1e899c;
   padding-bottom: 0.5em;
   font-size: 1.5em;
 }
+
 .HomeParagraph {
   font-size: 1em;
   word-spacing: 4px;
 }
+
 .AboutSubSectionContent{
   transition: 0.25s ease;
   padding:10px 0px;
   box-shadow: 0 0 5px 5px lightgrey;
   margin-bottom: 30px;
 }
+
 .AboutSubSectionContent:hover {
   transform: translateY(-0.50rem)
 }
+
 .AboutSubSectionUniLabel {
   display: block !important;
   margin: 10px auto !important;
   width: 35%;
 }
+
 .AboutSubSectionSchoolLabel{
   display: block !important;
   margin: 10px auto !important;
   width: 25%;
 }
+
 .AboutSubSectionExpLabel{
   display: block !important;
   margin: 10px auto !important;
@@ -53,15 +62,15 @@
   text-align: center;
 }
 
-
-
 @media (max-width: 991px) {
   .AboutSubSectionUniLabel {
     width: 45%;
   }
+  
   .AboutSubSectionSchoolLabel{
     width: 35%;
   }
+  
   .AboutSubSectionExpLabel{
     width: 55%;
   }
@@ -70,9 +79,11 @@
   .AboutSubSectionUniLabel {
     width: 25%;
   }
+  
   .AboutSubSectionSchoolLabel{
     width: 20%;
   }
+  
   .AboutSubSectionExpLabel{
     width: 30%;
   }
@@ -82,31 +93,39 @@
   .AboutSubSectionUniLabel {
     width: 30%;
   }
+  
   .AboutSubSectionSchoolLabel{
     width: 25%;
   }
+  
   .AboutSubSectionExpLabel{
     width: 35%;
   }
 }
+
 @media (max-width: 498px) {
   .AboutSubSectionUniLabel {
     width: 35%;
   }
+  
   .AboutSubSectionSchoolLabel{
     width: 30%;
   }
+  
   .AboutSubSectionExpLabel{
     width: 45%;
   }
 }
+
 @media (max-width: 420px) {
   .AboutSubSectionUniLabel {
     width: 50%;
   }
+  
   .AboutSubSectionSchoolLabel{
     width: 40%;
   }
+  
   .AboutSubSectionExpLabel{
     width: 60%;
   }
@@ -116,9 +135,11 @@
   .HomeContent {
     padding-bottom: 3em;
   }
+  
   .HomeHeaders {
     font-size: 2em;
   }
+  
   .HomeParagraph {
     font-size: 1.5em;
     padding: 0 2em;

@@ -2,13 +2,16 @@
   padding-left: 1em;
   padding-right: 1em;
 }
+
 .ContactFormLabel {
   color: red !important;
   padding-top: 1em;
 }
+
 .ContactFormTextArea {
   resize: "none";
 }
+
 .ContactFormButton {
   display: block !important;
   margin: auto !important;
@@ -20,6 +23,7 @@
   animation: ButtonPulse 10s infinite ease-in-out;
   transition: transform 0.5s !important;
 }
+
 .ContactFormButton:hover {
   transform: translateY(-0.25rem) scale(1.03);
 }
