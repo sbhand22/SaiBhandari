@@ -27,7 +27,11 @@ const ProjectCard = (props) => {
           </Card.Description>
         </Card.Content>
         <Card.Content extra className="ProjectCardContent">
-          <a rel="noopener noreferrer" href={props.projectData.projectUrl}>
+          <a
+            rel="noopener noreferrer"
+            href={props.projectData.projectUrl}
+            style={{ width: "fit-content" }}
+          >
             <button className="ProjectButtons">
               <Icon name="hand point right" size="large" />
               Show Details
@@ -37,7 +41,7 @@ const ProjectCard = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             href={props.projectData.projectGithub}
-            style={{width:"fit-content"}}
+            style={{ width: "fit-content" }}
           >
             <button className="ProjectButtons">
               Github <Icon name="github" size="large" />
@@ -48,6 +52,7 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noopener noreferrer"
               href={props.projectData.liveDemo}
+              style={{ width: "fit-content" }}
             >
               <button className="ProjectButtons">
                 Demo <Icon name="angle double right" size="large" />

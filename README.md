@@ -6,12 +6,16 @@
 
 > **Portfolio** is a portfolio website built with **ReactJS**
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/97778fa9-637e-46be-a591-5aa2821c8c12/deploy-status)](https://app.netlify.com/sites/mohamedhassan98/deploys)
+
 ### 👨‍💻 Technical Overview For the Project
 
 **Technologies & Tools used :**
 
 - ReactJS
 - Semantic UI
+- Axios
+- Formik
 - HTML
 - CSS
 

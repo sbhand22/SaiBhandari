@@ -36,8 +36,9 @@ const Home = () => {
           </h2>
           <p className="HomeParagraph">
             A technology nerd, who loves to seek more knowledge about anything
-            related to the front-end field, currently a senior student at the
-            Faculty of Engineering, Electronics &amp; Communication Department.
+            related to the front-end field, currently a fresh graduate,
+            previously a student at the Faculty of Engineering, Electronics
+            &amp; Communication Department.
           </p>
           <Grid>
             <Grid.Row>

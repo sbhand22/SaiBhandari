@@ -11,7 +11,7 @@ const ContactForm = () => {
   const submitHandler = (values) => {
     axios
       .post(`https://portfolio-contact-form-98.firebaseio.com/.json`, values)
-      .then((response) => {
+      .then((_) => {
         toast.success("Done! Will be checking it soon!", {
           position: "top-center",
           autoClose: 5000,
@@ -22,7 +22,7 @@ const ContactForm = () => {
           progress: undefined,
         });
       })
-      .catch((error) => {
+      .catch((_) => {
         toast.error("Looks like something went wrong!", {
           position: "top-center",
           autoClose: 5000,
@@ -60,7 +60,7 @@ const ContactForm = () => {
       }) => (
         <Form
           className="ContactFormStyle"
-          onSubmit={(event) => {
+          onSubmit={(_) => {
             handleSubmit(values);
           }}
         >
