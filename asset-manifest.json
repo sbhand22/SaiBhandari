@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SaiBhandari/static/css/main.29922877.chunk.css",
+    "main.js": "/SaiBhandari/static/js/main.2d9451c8.chunk.js",
+    "main.js.map": "/SaiBhandari/static/js/main.2d9451c8.chunk.js.map",
+    "runtime-main.js": "/SaiBhandari/static/js/runtime-main.f02acd13.js",
+    "runtime-main.js.map": "/SaiBhandari/static/js/runtime-main.f02acd13.js.map",
+    "static/css/2.766850b1.chunk.css": "/SaiBhandari/static/css/2.766850b1.chunk.css",
+    "static/js/2.765aa410.chunk.js": "/SaiBhandari/static/js/2.765aa410.chunk.js",
+    "static/js/2.765aa410.chunk.js.map": "/SaiBhandari/static/js/2.765aa410.chunk.js.map",
+    "index.html": "/SaiBhandari/index.html",
+    "precache-manifest.55699e75749359aeb0e89cc101eb4d03.js": "/SaiBhandari/precache-manifest.55699e75749359aeb0e89cc101eb4d03.js",
+    "service-worker.js": "/SaiBhandari/service-worker.js",
+    "static/css/2.766850b1.chunk.css.map": "/SaiBhandari/static/css/2.766850b1.chunk.css.map",
+    "static/css/main.29922877.chunk.css.map": "/SaiBhandari/static/css/main.29922877.chunk.css.map",
+    "static/js/2.765aa410.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.765aa410.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f02acd13.js",
+    "static/css/2.766850b1.chunk.css",
+    "static/js/2.765aa410.chunk.js",
+    "static/css/main.29922877.chunk.css",
+    "static/js/main.2d9451c8.chunk.js"
+  ]
+}
