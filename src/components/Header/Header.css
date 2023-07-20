@@ -1,0 +1,125 @@
+.homeHeader {
+  background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.heroHeaderContainer {
+  position: absolute;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.headerHero {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  display: block;
+  letter-spacing: 3px;
+  margin: 0rem 0;
+}
+
+.headerHero span {
+  color: #726eff;
+  font-weight: bold;
+}
+
+.homeHeader h2 {
+  color: white;
+  display: block;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 860px) {
+  .heroHeaderContainer{
+    padding: 20%;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 0.7em;
+  }
+  
+  .Typewriter__cursor{
+    font-size: 0.7em;
+  }
+  
+  .homeHeader {
+    height: 85vh !important;
+  }
+
+  .heroHeaderContainer {
+    left: 0 !important;
+  }
+
+  .headerHero {
+    font-size: 2.5rem !important;
+  }
+  
+  .homeHeader h2 {
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heroHeaderContainer {
+    padding: 30px;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 0.7em;
+  }
+  
+  .Typewriter__cursor{
+    font-size: 0.7em;
+  }
+  
+  .homeHeader {
+    height: 85vh !important;
+  }
+
+  .heroHeaderContainer {
+    left: 0 !important;
+  }
+
+  .headerHero {
+    font-size: 2.5rem !important;
+  }
+  
+  .homeHeader h2 {
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .heroHeaderContainer {
+    padding: 30px;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 0.5em;
+  }
+  
+  .Typewriter__cursor{
+    font-size: 0.5em;
+  }
+  
+  .headerHero {
+    font-size: 2em !important;
+  }
+  
+  .headerHero span {
+    font-size: 1em;
+  }
+}

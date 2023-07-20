@@ -1,0 +1,22 @@
+.SkillsDiv {
+    font-size: 1em;
+    word-spacing: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SkillEditor {
+    transform: scale(1);
+    transition: 0.5s ease-out;
+  }
+  
+.SkillEditor:hover {
+    transform: scale(1.5);
+}
+
+@media (min-width: 1023px) {
+    .SkillsDiv {
+      font-size: 1.5em;
+      padding: 0 2em;
+    }
+  }

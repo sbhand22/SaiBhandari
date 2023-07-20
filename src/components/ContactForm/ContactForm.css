@@ -1,0 +1,35 @@
+.ContactFormStyle {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.ContactFormLabel {
+  color: red !important;
+  padding-top: 1em;
+}
+
+.ContactFormTextArea {
+  resize: "none";
+}
+
+.ContactFormButton {
+  display: block !important;
+  margin: auto !important;
+  color: white !important;
+  font-size: 1.2em !important;
+  padding: 1.5rem 3.5rem !important;
+  margin-top: 2em !important;
+  border-radius: 30px !important;
+  animation: ButtonPulse 10s infinite ease-in-out;
+  transition: transform 0.5s !important;
+}
+
+.ContactFormButton:hover {
+  transform: translateY(-0.25rem) scale(1.03);
+}
+
+@media (max-width: 500px) {
+  .ContactFormButton {
+      padding: 1.2rem 2rem !important;
+      }
+  } 
