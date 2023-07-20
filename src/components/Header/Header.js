@@ -8,22 +8,22 @@ import "./Header.css";
 const iconsArray = [
   {
     iconName: "github",
-    iconHref: "https://github.com/MohamedHassan98",
+    iconHref: "https://github.com/sbhand22",
     iconAriaLabel: "Github Link",
   },
   {
     iconName: "linkedin",
-    iconHref: "https://www.linkedin.com/in/mohamed-hassan98/",
+    iconHref: "https://www.linkedin.com/in/sai-bhandari/",
     iconAriaLabel: "LinkedIn Link",
   },
   {
     iconName: "mail",
-    iconHref: "mailto:mohamed.hassan2498@gmail.com",
+    iconHref: "mailto:sbhand22@asu.edu",
     iconAriaLabel: "Email Link",
   },
   {
     iconName: "phone",
-    iconHref: "tel:+2 01281468213",
+    iconHref: "tel:+1 6029199356",
     iconAriaLabel: "Phone Link",
   },
 ];
@@ -41,13 +41,13 @@ const Header = () => {
           Hello,
         </h1>
         <h1 data-aos="fade-up" data-aos-duration="1400" className="headerHero">
-          I'm <span>Mohamed Hassan</span>
+          I'm <span>Sai Bhandari</span>
         </h1>
         <h2 data-aos="fade-up" data-aos-duration="1800">
           <span>
             <Typewriter
               options={{
-                strings: ["Student", "Front-End Engineer"],
+                strings: ["Student", "full Stack Developer"],
                 autoStart: true,
                 loop: true,
               }}
