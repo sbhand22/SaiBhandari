@@ -43,11 +43,18 @@ const Header = () => {
         <h1 data-aos="fade-up" data-aos-duration="1400" className="headerHero">
           I'm <span>Sai Bhandari</span>
         </h1>
+        <div className="hireMeButton" data-aos="fade-up" data-aos-duration="1400">
+          <a href="#contact">
+            <button>
+              Hire Me
+            </button>
+          </a>
+        </div>
         <h2 data-aos="fade-up" data-aos-duration="1800">
           <span>
             <Typewriter
               options={{
-                strings: ["Student", "full Stack Developer"],
+                strings: ["Student", "Software Developer", "Problem solver"],
                 autoStart: true,
                 loop: true,
               }}
@@ -66,8 +73,8 @@ const Header = () => {
                   window.innerWidth <= 450
                     ? "tiny"
                     : window.innerWidth <= 860
-                    ? "small"
-                    : null
+                      ? "small"
+                      : null
                 }
               />
             </a>

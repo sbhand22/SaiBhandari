@@ -83,7 +83,7 @@ const Nav = (props) => {
                     href="/"
                     activeclass={classes.active}
                   >
-                    Contact
+                    Connect
                   </Link>
                 </li>
                 <li className="NavItem">
@@ -130,7 +130,7 @@ const Nav = (props) => {
                     href="/#contact"
                     activeclass={classes.active}
                   >
-                    Contact
+                    Connect
                   </a>
                 </li>
                 <li className="NavItem">
@@ -199,7 +199,7 @@ const Nav = (props) => {
                     duration={500}
                     activeclass={classes.active}
                   >
-                    Contact
+                    Connect
                   </Link>
                 </li>
                 <li className="NavItem">
@@ -246,7 +246,7 @@ const Nav = (props) => {
                     href="/#contact"
                     activeclass={classes.active}
                   >
-                    Contact
+                    Connect
                   </a>
                 </li>
                 <li className="NavItem">

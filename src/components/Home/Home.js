@@ -170,7 +170,7 @@ const Home = () => {
           className="HomeContent HomePadding"
         >
           <h2 className="HomeHeaders">
-            <Icon name="mail" size="large" /> Contact:
+            <Icon name="mail" size="large" /> Connect:
           </h2>
           <ContactForm />
         </div>

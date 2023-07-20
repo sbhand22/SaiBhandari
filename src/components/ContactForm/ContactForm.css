@@ -1,3 +1,29 @@
+.connectIcon {
+  font-size: 3em !important;
+}
+
+@media (max-width: 600px) {
+  .connectIcon {
+    font-size: 1em; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 450px) {
+  .connectIcon {
+    font-size: 0.75em; /* Adjust as needed */
+  }
+}
+.virtualConnect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  width: 50%; /* Adjust this value as needed */
+}
+
+
 .ContactFormStyle {
   padding-left: 1em;
   padding-right: 1em;
@@ -22,6 +48,7 @@
   border-radius: 30px !important;
   animation: ButtonPulse 10s infinite ease-in-out;
   transition: transform 0.5s !important;
+  width: fit-content;
 }
 
 .ContactFormButton:hover {
