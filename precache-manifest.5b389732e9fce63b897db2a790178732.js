@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "957a7efad8de0a8b57f01a5f0300a97e",
+    "revision": "f1f0b3d726d47370a3b7f3cd8e881596",
     "url": "/SaiBhandari/index.html"
   },
   {
-    "revision": "1adf36a840540e472682",
+    "revision": "7c0f6b78d13e61f2edc7",
     "url": "/SaiBhandari/static/css/2.766850b1.chunk.css"
   },
   {
-    "revision": "40448d7a4b3e16d88257",
-    "url": "/SaiBhandari/static/css/main.d2513af3.chunk.css"
+    "revision": "f6603416282a301e3144",
+    "url": "/SaiBhandari/static/css/main.ec823ff6.chunk.css"
   },
   {
-    "revision": "1adf36a840540e472682",
-    "url": "/SaiBhandari/static/js/2.e7134906.chunk.js"
+    "revision": "7c0f6b78d13e61f2edc7",
+    "url": "/SaiBhandari/static/js/2.17049a9e.chunk.js"
   },
   {
     "revision": "9ab008f46842d036bb7d6edad80f72a5",
-    "url": "/SaiBhandari/static/js/2.e7134906.chunk.js.LICENSE.txt"
+    "url": "/SaiBhandari/static/js/2.17049a9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40448d7a4b3e16d88257",
-    "url": "/SaiBhandari/static/js/main.93d2c727.chunk.js"
+    "revision": "f6603416282a301e3144",
+    "url": "/SaiBhandari/static/js/main.ee193033.chunk.js"
   },
   {
     "revision": "7f159ed8140f80c56fad",
     "url": "/SaiBhandari/static/js/runtime-main.f02acd13.js"
+  },
+  {
+    "revision": "39fbdec656bdbdaa1f8b7e8c8fec0df0",
+    "url": "/SaiBhandari/static/media/Kira-img.39fbdec6.png"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -48,8 +52,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SaiBhandari/static/media/brand-icons.e8c322de.woff2"
   },
   {
+    "revision": "28950c5f5027bc723e3dfcba1ec08ee7",
+    "url": "/SaiBhandari/static/media/cancer-info-ss.28950c5f.png"
+  },
+  {
+    "revision": "31febaa8de587cb1cf92d45222542069",
+    "url": "/SaiBhandari/static/media/disease-info-ss.31febaa8.png"
+  },
+  {
+    "revision": "60b45be1f22f03635ff3b8c8e08b741e",
+    "url": "/SaiBhandari/static/media/find-derma-ss.60b45be1.png"
+  },
+  {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/SaiBhandari/static/media/flags.9c74e172.png"
+  },
+  {
+    "revision": "0453a4f602b7dc2ccec968518d39081a",
+    "url": "/SaiBhandari/static/media/get-tested-ss.0453a4f6.png"
+  },
+  {
+    "revision": "b935dd22080193026c2575dea957d107",
+    "url": "/SaiBhandari/static/media/homepage-ss.b935dd22.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -70,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/SaiBhandari/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "fdee2d272c9d6d2265c622983a5c236b",
+    "url": "/SaiBhandari/static/media/kira-blog-ss.fdee2d27.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
