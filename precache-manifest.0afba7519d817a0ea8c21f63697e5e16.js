@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1f0b3d726d47370a3b7f3cd8e881596",
+    "revision": "8f5d8129aea938640e19415fc8109730",
     "url": "/SaiBhandari/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SaiBhandari/static/css/2.766850b1.chunk.css"
   },
   {
-    "revision": "f6603416282a301e3144",
-    "url": "/SaiBhandari/static/css/main.ec823ff6.chunk.css"
+    "revision": "d93cd5ed87297432f206",
+    "url": "/SaiBhandari/static/css/main.894c5e39.chunk.css"
   },
   {
     "revision": "7c0f6b78d13e61f2edc7",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SaiBhandari/static/js/2.17049a9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6603416282a301e3144",
+    "revision": "d93cd5ed87297432f206",
     "url": "/SaiBhandari/static/js/main.ee193033.chunk.js"
   },
   {

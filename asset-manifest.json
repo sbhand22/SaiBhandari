@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SaiBhandari/static/css/main.ec823ff6.chunk.css",
+    "main.css": "/SaiBhandari/static/css/main.894c5e39.chunk.css",
     "main.js": "/SaiBhandari/static/js/main.ee193033.chunk.js",
     "main.js.map": "/SaiBhandari/static/js/main.ee193033.chunk.js.map",
     "runtime-main.js": "/SaiBhandari/static/js/runtime-main.f02acd13.js",
@@ -9,10 +9,10 @@
     "static/js/2.17049a9e.chunk.js": "/SaiBhandari/static/js/2.17049a9e.chunk.js",
     "static/js/2.17049a9e.chunk.js.map": "/SaiBhandari/static/js/2.17049a9e.chunk.js.map",
     "index.html": "/SaiBhandari/index.html",
-    "precache-manifest.5b389732e9fce63b897db2a790178732.js": "/SaiBhandari/precache-manifest.5b389732e9fce63b897db2a790178732.js",
+    "precache-manifest.0afba7519d817a0ea8c21f63697e5e16.js": "/SaiBhandari/precache-manifest.0afba7519d817a0ea8c21f63697e5e16.js",
     "service-worker.js": "/SaiBhandari/service-worker.js",
     "static/css/2.766850b1.chunk.css.map": "/SaiBhandari/static/css/2.766850b1.chunk.css.map",
-    "static/css/main.ec823ff6.chunk.css.map": "/SaiBhandari/static/css/main.ec823ff6.chunk.css.map",
+    "static/css/main.894c5e39.chunk.css.map": "/SaiBhandari/static/css/main.894c5e39.chunk.css.map",
     "static/js/2.17049a9e.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.17049a9e.chunk.js.LICENSE.txt",
     "static/media/Kira-img.png": "/SaiBhandari/static/media/Kira-img.39fbdec6.png",
     "static/media/semantic.min.css": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.f02acd13.js",
     "static/css/2.766850b1.chunk.css",
     "static/js/2.17049a9e.chunk.js",
-    "static/css/main.ec823ff6.chunk.css",
+    "static/css/main.894c5e39.chunk.css",
     "static/js/main.ee193033.chunk.js"
   ]
 }
