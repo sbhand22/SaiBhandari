@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SaiBhandari/static/css/main.97deef7a.chunk.css",
-    "main.js": "/SaiBhandari/static/js/main.473f2330.chunk.js",
-    "main.js.map": "/SaiBhandari/static/js/main.473f2330.chunk.js.map",
+    "main.js": "/SaiBhandari/static/js/main.2c17a69d.chunk.js",
+    "main.js.map": "/SaiBhandari/static/js/main.2c17a69d.chunk.js.map",
     "runtime-main.js": "/SaiBhandari/static/js/runtime-main.f02acd13.js",
     "runtime-main.js.map": "/SaiBhandari/static/js/runtime-main.f02acd13.js.map",
     "static/css/2.766850b1.chunk.css": "/SaiBhandari/static/css/2.766850b1.chunk.css",
-    "static/js/2.05cfd20a.chunk.js": "/SaiBhandari/static/js/2.05cfd20a.chunk.js",
-    "static/js/2.05cfd20a.chunk.js.map": "/SaiBhandari/static/js/2.05cfd20a.chunk.js.map",
+    "static/js/2.87f9b2cf.chunk.js": "/SaiBhandari/static/js/2.87f9b2cf.chunk.js",
+    "static/js/2.87f9b2cf.chunk.js.map": "/SaiBhandari/static/js/2.87f9b2cf.chunk.js.map",
     "index.html": "/SaiBhandari/index.html",
-    "precache-manifest.7e9394076f188506366af37b93e84c81.js": "/SaiBhandari/precache-manifest.7e9394076f188506366af37b93e84c81.js",
+    "precache-manifest.bb9efd16dab56bdc422421fee6763a2f.js": "/SaiBhandari/precache-manifest.bb9efd16dab56bdc422421fee6763a2f.js",
     "service-worker.js": "/SaiBhandari/service-worker.js",
     "static/css/2.766850b1.chunk.css.map": "/SaiBhandari/static/css/2.766850b1.chunk.css.map",
     "static/css/main.97deef7a.chunk.css.map": "/SaiBhandari/static/css/main.97deef7a.chunk.css.map",
-    "static/js/2.05cfd20a.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.05cfd20a.chunk.js.LICENSE.txt",
+    "static/js/2.87f9b2cf.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.87f9b2cf.chunk.js.LICENSE.txt",
     "static/media/Kira-img.png": "/SaiBhandari/static/media/Kira-img.39fbdec6.png",
     "static/media/semantic.min.css": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff",
     "static/media/cancer-info-ss.png": "/SaiBhandari/static/media/cancer-info-ss.28950c5f.png",
@@ -21,13 +21,18 @@
     "static/media/find-derma-ss.png": "/SaiBhandari/static/media/find-derma-ss.60b45be1.png",
     "static/media/get-tested-ss.png": "/SaiBhandari/static/media/get-tested-ss.0453a4f6.png",
     "static/media/homepage-ss.png": "/SaiBhandari/static/media/homepage-ss.b935dd22.png",
-    "static/media/kira-blog-ss.png": "/SaiBhandari/static/media/kira-blog-ss.fdee2d27.png"
+    "static/media/kira-blog-ss.png": "/SaiBhandari/static/media/kira-blog-ss.fdee2d27.png",
+    "static/media/ss (1).jpg": "/SaiBhandari/static/media/ss (1).73126f26.jpg",
+    "static/media/ss (2).jpg": "/SaiBhandari/static/media/ss (2).1b7ee686.jpg",
+    "static/media/ss (3).jpg": "/SaiBhandari/static/media/ss (3).5c7aba55.jpg",
+    "static/media/ss (4).jpg": "/SaiBhandari/static/media/ss (4).cbff3483.jpg",
+    "static/media/ss1.jpg": "/SaiBhandari/static/media/ss1.fb9034cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f02acd13.js",
     "static/css/2.766850b1.chunk.css",
-    "static/js/2.05cfd20a.chunk.js",
+    "static/js/2.87f9b2cf.chunk.js",
     "static/css/main.97deef7a.chunk.css",
-    "static/js/main.473f2330.chunk.js"
+    "static/js/main.2c17a69d.chunk.js"
   ]
 }
