@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SaiBhandari/static/css/main.66b69166.chunk.css",
-    "main.js": "/SaiBhandari/static/js/main.a42c2ac6.chunk.js",
-    "main.js.map": "/SaiBhandari/static/js/main.a42c2ac6.chunk.js.map",
+    "main.js": "/SaiBhandari/static/js/main.6bcbbbfe.chunk.js",
+    "main.js.map": "/SaiBhandari/static/js/main.6bcbbbfe.chunk.js.map",
     "runtime-main.js": "/SaiBhandari/static/js/runtime-main.f02acd13.js",
     "runtime-main.js.map": "/SaiBhandari/static/js/runtime-main.f02acd13.js.map",
     "static/css/2.766850b1.chunk.css": "/SaiBhandari/static/css/2.766850b1.chunk.css",
-    "static/js/2.a8e4414c.chunk.js": "/SaiBhandari/static/js/2.a8e4414c.chunk.js",
-    "static/js/2.a8e4414c.chunk.js.map": "/SaiBhandari/static/js/2.a8e4414c.chunk.js.map",
+    "static/js/2.0728996f.chunk.js": "/SaiBhandari/static/js/2.0728996f.chunk.js",
+    "static/js/2.0728996f.chunk.js.map": "/SaiBhandari/static/js/2.0728996f.chunk.js.map",
     "index.html": "/SaiBhandari/index.html",
-    "precache-manifest.70a21a45da9368d8e796c53223e26e77.js": "/SaiBhandari/precache-manifest.70a21a45da9368d8e796c53223e26e77.js",
+    "precache-manifest.f7335d7b65541881c7eaa3d4152d2377.js": "/SaiBhandari/precache-manifest.f7335d7b65541881c7eaa3d4152d2377.js",
     "service-worker.js": "/SaiBhandari/service-worker.js",
     "static/css/2.766850b1.chunk.css.map": "/SaiBhandari/static/css/2.766850b1.chunk.css.map",
     "static/css/main.66b69166.chunk.css.map": "/SaiBhandari/static/css/main.66b69166.chunk.css.map",
-    "static/js/2.a8e4414c.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.a8e4414c.chunk.js.LICENSE.txt",
+    "static/js/2.0728996f.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.0728996f.chunk.js.LICENSE.txt",
     "static/media/Kira-img.png": "/SaiBhandari/static/media/Kira-img.39fbdec6.png",
     "static/media/semantic.min.css": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff",
     "static/media/cancer-info-ss.png": "/SaiBhandari/static/media/cancer-info-ss.28950c5f.png",
@@ -27,13 +27,18 @@
     "static/media/ss (2).jpg": "/SaiBhandari/static/media/ss (2).1b7ee686.jpg",
     "static/media/ss (3).jpg": "/SaiBhandari/static/media/ss (3).5c7aba55.jpg",
     "static/media/ss (4).jpg": "/SaiBhandari/static/media/ss (4).cbff3483.jpg",
-    "static/media/ss1.jpg": "/SaiBhandari/static/media/ss1.fb9034cc.jpg"
+    "static/media/ss1.jpg": "/SaiBhandari/static/media/ss1.fb9034cc.jpg",
+    "static/media/ss31 (1).jpg": "/SaiBhandari/static/media/ss31 (1).686dbbf3.jpg",
+    "static/media/ss31 (2).jpg": "/SaiBhandari/static/media/ss31 (2).aabe2fdf.jpg",
+    "static/media/ss31 (3).jpg": "/SaiBhandari/static/media/ss31 (3).1c1e455e.jpg",
+    "static/media/ss31 (4).jpg": "/SaiBhandari/static/media/ss31 (4).538393d8.jpg",
+    "static/media/tableaulogo.jpg": "/SaiBhandari/static/media/tableaulogo.a4f792ad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f02acd13.js",
     "static/css/2.766850b1.chunk.css",
-    "static/js/2.a8e4414c.chunk.js",
+    "static/js/2.0728996f.chunk.js",
     "static/css/main.66b69166.chunk.css",
-    "static/js/main.a42c2ac6.chunk.js"
+    "static/js/main.6bcbbbfe.chunk.js"
   ]
 }

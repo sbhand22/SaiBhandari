@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5aec3b84e899e69eeb0c223df964ac9d",
+    "revision": "7210c1306e6e4954f7f3c4e2a63658ec",
     "url": "/SaiBhandari/index.html"
   },
   {
-    "revision": "5ef1c34bfe09b7dca838",
+    "revision": "1e45bc04f6a04f98d3c2",
     "url": "/SaiBhandari/static/css/2.766850b1.chunk.css"
   },
   {
-    "revision": "c6561019b1d6e99c4579",
+    "revision": "d2504022c91e0d5704c6",
     "url": "/SaiBhandari/static/css/main.66b69166.chunk.css"
   },
   {
-    "revision": "5ef1c34bfe09b7dca838",
-    "url": "/SaiBhandari/static/js/2.a8e4414c.chunk.js"
+    "revision": "1e45bc04f6a04f98d3c2",
+    "url": "/SaiBhandari/static/js/2.0728996f.chunk.js"
   },
   {
     "revision": "9ab008f46842d036bb7d6edad80f72a5",
-    "url": "/SaiBhandari/static/js/2.a8e4414c.chunk.js.LICENSE.txt"
+    "url": "/SaiBhandari/static/js/2.0728996f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6561019b1d6e99c4579",
-    "url": "/SaiBhandari/static/js/main.a42c2ac6.chunk.js"
+    "revision": "d2504022c91e0d5704c6",
+    "url": "/SaiBhandari/static/js/main.6bcbbbfe.chunk.js"
   },
   {
     "revision": "7f159ed8140f80c56fad",
@@ -142,5 +142,25 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb9034cc9e286dfa7e149806a1fdeba4",
     "url": "/SaiBhandari/static/media/ss1.fb9034cc.jpg"
+  },
+  {
+    "revision": "686dbbf3c449cbb688a0f28607e688db",
+    "url": "/SaiBhandari/static/media/ss31 (1).686dbbf3.jpg"
+  },
+  {
+    "revision": "aabe2fdf56fd5701a39d8da1608778f5",
+    "url": "/SaiBhandari/static/media/ss31 (2).aabe2fdf.jpg"
+  },
+  {
+    "revision": "1c1e455e0b01943f26d1cf479bc1a056",
+    "url": "/SaiBhandari/static/media/ss31 (3).1c1e455e.jpg"
+  },
+  {
+    "revision": "538393d89e64439cb58ac0042442f70e",
+    "url": "/SaiBhandari/static/media/ss31 (4).538393d8.jpg"
+  },
+  {
+    "revision": "a4f792ad5b4b62d7c81d40105203a409",
+    "url": "/SaiBhandari/static/media/tableaulogo.a4f792ad.jpg"
   }
 ]);
