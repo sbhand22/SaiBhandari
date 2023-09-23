@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/SaiBhandari/static/css/main.66b69166.chunk.css",
-    "main.js": "/SaiBhandari/static/js/main.28b157c6.chunk.js",
-    "main.js.map": "/SaiBhandari/static/js/main.28b157c6.chunk.js.map",
+    "main.css": "/SaiBhandari/static/css/main.826aff5e.chunk.css",
+    "main.js": "/SaiBhandari/static/js/main.efd02917.chunk.js",
+    "main.js.map": "/SaiBhandari/static/js/main.efd02917.chunk.js.map",
     "runtime-main.js": "/SaiBhandari/static/js/runtime-main.f02acd13.js",
     "runtime-main.js.map": "/SaiBhandari/static/js/runtime-main.f02acd13.js.map",
     "static/css/2.766850b1.chunk.css": "/SaiBhandari/static/css/2.766850b1.chunk.css",
-    "static/js/2.0728996f.chunk.js": "/SaiBhandari/static/js/2.0728996f.chunk.js",
-    "static/js/2.0728996f.chunk.js.map": "/SaiBhandari/static/js/2.0728996f.chunk.js.map",
+    "static/js/2.2f7b513e.chunk.js": "/SaiBhandari/static/js/2.2f7b513e.chunk.js",
+    "static/js/2.2f7b513e.chunk.js.map": "/SaiBhandari/static/js/2.2f7b513e.chunk.js.map",
     "index.html": "/SaiBhandari/index.html",
-    "precache-manifest.ad0c9e3c84357922b411cc847c631cd8.js": "/SaiBhandari/precache-manifest.ad0c9e3c84357922b411cc847c631cd8.js",
+    "precache-manifest.aa217eb3bab97a555767a43e83ef9111.js": "/SaiBhandari/precache-manifest.aa217eb3bab97a555767a43e83ef9111.js",
     "service-worker.js": "/SaiBhandari/service-worker.js",
     "static/css/2.766850b1.chunk.css.map": "/SaiBhandari/static/css/2.766850b1.chunk.css.map",
-    "static/css/main.66b69166.chunk.css.map": "/SaiBhandari/static/css/main.66b69166.chunk.css.map",
-    "static/js/2.0728996f.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.0728996f.chunk.js.LICENSE.txt",
+    "static/css/main.826aff5e.chunk.css.map": "/SaiBhandari/static/css/main.826aff5e.chunk.css.map",
+    "static/js/2.2f7b513e.chunk.js.LICENSE.txt": "/SaiBhandari/static/js/2.2f7b513e.chunk.js.LICENSE.txt",
     "static/media/Kira-img.png": "/SaiBhandari/static/media/Kira-img.39fbdec6.png",
+    "static/media/Resume_SAI_BHANDARI.pdf": "/SaiBhandari/static/media/Resume_SAI_BHANDARI.5ae53db8.pdf",
     "static/media/semantic.min.css": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff",
     "static/media/cancer-info-ss.png": "/SaiBhandari/static/media/cancer-info-ss.28950c5f.png",
     "static/media/disease-info-ss.png": "/SaiBhandari/static/media/disease-info-ss.31febaa8.png",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.f02acd13.js",
     "static/css/2.766850b1.chunk.css",
-    "static/js/2.0728996f.chunk.js",
-    "static/css/main.66b69166.chunk.css",
-    "static/js/main.28b157c6.chunk.js"
+    "static/js/2.2f7b513e.chunk.js",
+    "static/css/main.826aff5e.chunk.css",
+    "static/js/main.efd02917.chunk.js"
   ]
 }
