@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff497b3abab923a07f4b6a9a80f6bb46",
+    "revision": "f28c9a89cbd099f67511889390ee01d5",
     "url": "/SaiBhandari/index.html"
   },
   {
-    "revision": "6ac8a15c77acec81041a",
+    "revision": "702eb48a4efaf33b6c7a",
     "url": "/SaiBhandari/static/css/2.766850b1.chunk.css"
   },
   {
-    "revision": "fd987715bb762c5d82f5",
-    "url": "/SaiBhandari/static/css/main.826aff5e.chunk.css"
+    "revision": "6e5b39108cfc6496cf10",
+    "url": "/SaiBhandari/static/css/main.74e88459.chunk.css"
   },
   {
-    "revision": "6ac8a15c77acec81041a",
-    "url": "/SaiBhandari/static/js/2.2f7b513e.chunk.js"
+    "revision": "702eb48a4efaf33b6c7a",
+    "url": "/SaiBhandari/static/js/2.8e465aba.chunk.js"
   },
   {
     "revision": "9ab008f46842d036bb7d6edad80f72a5",
-    "url": "/SaiBhandari/static/js/2.2f7b513e.chunk.js.LICENSE.txt"
+    "url": "/SaiBhandari/static/js/2.8e465aba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd987715bb762c5d82f5",
-    "url": "/SaiBhandari/static/js/main.efd02917.chunk.js"
+    "revision": "6e5b39108cfc6496cf10",
+    "url": "/SaiBhandari/static/js/main.b99e084c.chunk.js"
   },
   {
     "revision": "7f159ed8140f80c56fad",
@@ -126,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/SaiBhandari/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "10b2eb8d68ef71a7c1fc5d810d4f5fff",
+    "url": "/SaiBhandari/static/media/pimg.10b2eb8d.jpg"
   },
   {
     "revision": "73126f262febf304099343c3fe5ab584",
