@@ -7,16 +7,54 @@ import classes from "./Nav.css";
 
 const Nav = (props) => {
   const [NavClass, setNavClass] = useState("Nav");
+  const isProjectPage = window.location.pathname.endsWith("-project");
 
   useEffect(() => {
-    document.addEventListener("scroll", () => {
+    if (isProjectPage) return; // Skip adding event listener if on project page
+
+    const handleScroll = () => {
       if (window.scrollY > 0) {
         setNavClass(["Nav", "Navsticky"].join(" "));
       } else {
         setNavClass("Nav");
       }
-    });
-  }, []);
+    };
+
+    document.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [isProjectPage]);
+
+  if (isProjectPage) {
+    return (
+      <div style={{ position: 'fixed', top: '10px', left: '10px', zIndex: 1000 }}>
+        <button
+          onClick={() => window.history.back()}
+          style={{
+            backgroundColor: '#5a55cc',
+            color: 'white',
+            padding: '12px', // Adjusted padding
+            width: '50px', // Adjusted width and height
+            height: '50px',
+            border: 'none',
+            borderRadius: '50%',
+            cursor: 'pointer',
+            fontSize: '24px', // Increased font size
+            boxShadow: '0 8px 16px 0 rgba(0,0,0,0.2)',
+            transition: '0.3s',
+            textAlign: 'center',
+            lineHeight: '26px', // Adjusted line height
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#1B193D'}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#5a55cc'}
+        >
+          ←
+        </button>
+      </div>
+    );
+  }
 
   return (
     <>

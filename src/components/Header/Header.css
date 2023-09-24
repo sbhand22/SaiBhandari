@@ -1,5 +1,5 @@
 .hireMeButton button {
-  background-color: #726eff; /* change this to match your theme */
+  background-color: #5a55cc; /* change this to match your theme */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -21,9 +21,33 @@
   color: white;
 }
 
+.profilePicture {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 350px;
+  height: 350px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+
+.profilePicture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .homeHeader {
-  background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-image: url("../../assets/bgimg2.jpg");
+  /* background-image: url("../../assets/bgimg3.jpg"); */
+  /* background-image: url("../../assets/bgimg4.jpg"); */
+  /* background-image: url("../../assets/bgimg5.jpg"); */
+  /* background-image: url("../../assets/bgimg6.jpg"); */
+  /* background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"); */
+  /* background-image: url("https://media.istockphoto.com/id/1329175201/photo/science-background-abstract-digital-background-plexus-made-of-dots-and-lines-big-data.jpg?s=612x612&w=0&k=20&c=xw-QL3UGTAVjN8u5QupKN8huBkgIub25LOj0mjNAukw="); */
+  /* https://media.istockphoto.com/id/1329175201/photo/science-background-abstract-digital-background-plexus-made-of-dots-and-lines-big-data.jpg?s=612x612&w=0&k=20&c=xw-QL3UGTAVjN8u5QupKN8huBkgIub25LOj0mjNAukw= */
+  /* background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?w=1380&t=st=1689886023~exp=1689886623~hmac=4d97b01e19431c669b0cb01ecb0623e3e64cbab853e22fc9ceea1440aca16d9f"); */
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -55,7 +79,8 @@
 }
 
 .headerHero span {
-  color: #726eff;
+  font-style: italic;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -146,4 +171,39 @@
   .headerHero span {
     font-size: 1em;
   }
+}
+.downloadResumeButton {
+  margin-top: 20px;
+  position: relative;
+}
+
+.downloadResumeButton a {
+  text-decoration: none;
+}
+
+.downloadResumeButton button {
+  background-color: #5a55cc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.downloadResumeButton button:hover {
+  background-color: #14106d;
+  color: white;
+  border: 1px solid #190ee7;
+}
+.downloadResumeButton button .icon {
+  margin-right: 8px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, Icon, Card } from "semantic-ui-react";
 import "./ProjectCard.css";
+import { Link } from 'react-router-dom';
 
 const ProjectCard = (props) => {
   return (
@@ -27,26 +28,27 @@ const ProjectCard = (props) => {
           </Card.Description>
         </Card.Content>
         <Card.Content extra className="ProjectCardContent">
-          <a
-            rel="noopener noreferrer"
-            href={props.projectData.projectUrl}
+        <Link 
+            to={`${props.projectData.projectUrl}`} 
             style={{ width: "fit-content" }}
           >
             <button className="ProjectButtons">
               <Icon name="hand point right" size="large" />
               Show Details
             </button>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={props.projectData.projectGithub}
-            style={{ width: "fit-content" }}
-          >
-            <button className="ProjectButtons">
-              Github <Icon name="github" size="large" />
-            </button>
-          </a>
+          </Link>
+          {props.projectData.projectGithub && (
+  <a
+    target="_blank"
+    rel="noopener noreferrer"
+    href={props.projectData.projectGithub}
+    style={{ width: "fit-content" }}
+  >
+    <button className="ProjectButtons">
+      Github <Icon name="github" size="large" />
+    </button>
+  </a>
+)}
           {props.projectData.liveDemo ? (
             <a
               target="_blank"

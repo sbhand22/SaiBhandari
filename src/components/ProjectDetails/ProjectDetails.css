@@ -82,7 +82,7 @@
     padding: 2.5em 2.5em 3em 2.5em;
     border-radius: 30px;
     margin-bottom: 5em;
-    animation: Pulse 4s infinite ease-in-out;
+    /* animation: Pulse 4s infinite ease-in-out; */
   }
   
   .ProjectAbout:last-child {
@@ -97,6 +97,7 @@
   .ProjectAboutParagraph {
     font-size: 1em;
     word-spacing: 4px;
+    text-align: justify;
   }
   
   .ProjectPhotosParagraph {

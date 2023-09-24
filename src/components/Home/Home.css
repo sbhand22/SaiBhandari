@@ -8,7 +8,7 @@
   margin-top: 2.5em;
   padding-top: 2.5em;
   border-radius: 30px;
-  animation: Pulse 10s infinite ease-in-out;
+  /* animation: Pulse 10s infinite ease-in-out; */
 }
 
 .HomePadding:last-child {
@@ -16,8 +16,8 @@
 }
 
 .HomeHeaders {
-  text-shadow: 2px 2px 5px grey;
-  color: #1e899c;
+  /* text-shadow: 2px 2px 5px grey; */
+  color: #5a55cc;
   padding-bottom: 0.5em;
   font-size: 1.5em;
 }
@@ -30,7 +30,7 @@
 .AboutSubSectionContent{
   transition: 0.25s ease;
   padding:10px 0px;
-  box-shadow: 0 0 5px 5px lightgrey;
+  /* box-shadow: 0 0 5px 5px lightgrey; */
   margin-bottom: 30px;
 }
 

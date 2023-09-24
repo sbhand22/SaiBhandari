@@ -13,12 +13,12 @@ class App extends Component {
     return (
       <Switch>
         <Route path="/home" component={Home} />
-        <Route path="/slack-project" component={ProjectDetails} />
-        <Route path="/burger-project" component={ProjectDetails} />
+        <Route path="/kira-project" component={ProjectDetails} />
+        <Route path="/chatapp-project" component={ProjectDetails} />
+        <Route path="/heartwise-project" component={ProjectDetails} />
         <Route path="/wikimovies-project" component={ProjectDetails} />
         <Route path="/snuggs-commerce-project" component={ProjectDetails} />
         <Route path="/natours-project" component={ProjectDetails} />
-        <Route path="/trillo-project" component={ProjectDetails} />
         <Route path="/nexter-project" component={ProjectDetails} />
         <Route path="*" component={Home} />
       </Switch>

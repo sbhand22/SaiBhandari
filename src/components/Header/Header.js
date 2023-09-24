@@ -4,6 +4,8 @@ import Typewriter from "typewriter-effect";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Header.css";
+import resume from "../../assets/Resume_SAI_BHANDARI.pdf"
+import pimg from "../../assets/pimg.jpg"
 
 const iconsArray = [
   {
@@ -34,8 +36,12 @@ const Header = () => {
       duration: 1000,
     });
   }, []);
+  const yourImageUrl = pimg;
   return (
     <header id="home" className="homeHeader">
+      {/* <div className="profilePicture">
+        <img src={yourImageUrl} alt="Profile" />
+      </div> */}
       <div className="heroHeaderContainer">
         <h1 data-aos="fade-up" className="headerHero">
           Hello,
@@ -43,13 +49,13 @@ const Header = () => {
         <h1 data-aos="fade-up" data-aos-duration="1400" className="headerHero">
           I'm <span>Sai Bhandari</span>
         </h1>
-        <div className="hireMeButton" data-aos="fade-up" data-aos-duration="1400">
+        {/* <div className="hireMeButton" data-aos="fade-up" data-aos-duration="1400">
           <a href="#contact">
             <button>
               Hire Me
             </button>
           </a>
-        </div>
+        </div> */}
         <h2 data-aos="fade-up" data-aos-duration="1800">
           <span>
             <Typewriter
@@ -60,6 +66,9 @@ const Header = () => {
               }}
             />
           </span>
+          <h3 data-aos="fade-up" data-aos-duration="1400" >
+          Graduating in <span>May 2024</span>
+        </h3>
           {iconsArray.map((iconArray) => (
             <a
               aria-label={iconArray.iconAriaLabel}
@@ -80,6 +89,13 @@ const Header = () => {
             </a>
           ))}
         </h2>
+        <div className="downloadResumeButton" data-aos="fade-up" data-aos-duration="2000">
+        <a href={resume} download>
+          <button>
+            <Icon name="file pdf outline" /> Download Resume
+          </button>
+        </a>
+      </div>
       </div>
     </header>
   );

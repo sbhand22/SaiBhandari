@@ -179,18 +179,18 @@ input[type="checkbox"].dmcheck + label {
 
 @keyframes ButtonPulse {
   0% {
-    background-color: rgba(55, 119, 158, 1);
+    background-color: #09a0f7;
   }
   25% {
-    background-color: rgba(155, 59, 59, 1);
+    background-color: #0c00fa;
   }
   50% {
-    background-color: rgba(32, 92, 55, 1);
+    background-color: #5a55cc;
   }
   75% {
-    background-color: rgba(155, 59, 59, 1);
+    background-color: #100b7c;
   }
   100% {
-    background-color: rgba(55, 119, 158, 1);
+    background-color: #470077;
   }
 }

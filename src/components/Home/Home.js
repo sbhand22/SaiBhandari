@@ -31,11 +31,12 @@ const Home = () => {
           id="about"
           className="HomeContent HomePadding"
         >
-          <h2 className="HomeHeaders">
-            <Icon name="user" size="large" />
-             About:
-          </h2>
-          <p className="HomeParagraph" style={{textAlign: 'justify'}}>
+          <h2 className="HomeHeaders" style={{ display: 'flex', alignItems: 'center' }}>
+  <Icon name="user" size="large" />
+  About:
+</h2>
+
+          <p className="HomeParagraph" style={{textAlign: 'center'}}>
             I'm an Information Technology Master's student at Arizona State University, 
             a seasoned software developer, and an entrepreneurial spirit with roots in Infosys 
             Ltd and Decyfertech IT Solutions. My tech repertoire spans across a multitude of 

@@ -1,75 +1,41 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import kiraLogo from '../../assets/Kira/Kira-img.png';
+import flutterLogo from '../../assets/chatapp/flutterlogo.jpg';
+import tableaulogo from '../../assets/heartwise/tableaulogo.jpg';
+
 
 const projectDatas = [
   {
-    projectName: "Burger Builder",
+    projectName: "KIRA Skin cancer",
     briefDescription:
-      "Burger Builder is a website about builidng a burger with your own ingredient.",
-    projectGithub: "https://github.com/MohamedHassan98/React-Burger-Project",
-    projectUrl: "/burger-project",
+      "KIRA Skin cancer is a React web app for the betterment of the Skin Cancer society.",
+    projectGithub: "https://github.com/sbhand22/Kira",
+    projectUrl: "/kira-project",
     projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/burgerProject%2FburgerProject.webp?alt=media",
+    kiraLogo,
+    liveDemo: "https://kira-skin-cancer.netlify.app/",
   },
   {
-    projectName: "Slack Clone",
+    projectName: "Flutter-based Real-time Chat Application",
     briefDescription:
-      "Slack Clone is a simple chat app that is close to Slack, a messaging app for business that connects people to the information they need.",
-    projectGithub: "https://github.com/MohamedHassan98/slack-clone-react",
-    projectUrl: "/slack-project",
+    "Harnessing Flutter, this app offers seamless, real-time chatting, secured by Firebase and provide scalable infrastructure.",
+    projectGithub: "https://github.com/saibhandari1999/Flutter-chatapp.git",
+    projectUrl: "/chatapp-project",
     projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/slackProject%2FslackLogo.webp?alt=media",
+    flutterLogo,
   },
   {
-    projectName: "WikiMovies",
+    projectName: "Heartwise Explorer",
     briefDescription:
-      "WikiMovies is a website about movies, tv shows and their cast using TMDb API.",
-    projectGithub: "https://github.com/MohamedHassan98/WikiMovies",
-    projectUrl: "/wikimovies-project",
+      "Heartwise Explorer: an interactive Tableau Dashboard for healthcare insights.",
+    projectUrl: "/heartwise-project",
     projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/wikimoviesProject%2FMoviesLogo.webp?alt=media",
-    liveDemo: "https://wikimovies2498.netlify.app/",
+    tableaulogo,
+    liveDemo: "https://public.tableau.com/app/profile/sai.bhandari/viz/HeartDiseaseDVproject/Dashboard1",
   },
-  {
-    projectName: "Snuggs Commerce",
-    briefDescription:
-      "Snuggs Clone is a website about an e-commerce business shop.",
-    projectGithub: "https://github.com/MohamedHassan98/E-Commerce",
-    projectUrl: "/snuggs-commerce-project",
-    projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FSnuggsLogo.webp?alt=media",
-    liveDemo: "https://snuggs-commerce.netlify.app/",
-  },
-  {
-    projectName: "Natours",
-    briefDescription:
-      "Natours is a landing page advertising for a travel agency.",
-    projectGithub: "https://github.com/MohamedHassan98/Natours",
-    projectUrl: "/natours-project",
-    projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/natoursProject%2FNatoursLogo.webp?alt=media",
-    liveDemo: "https://natourlandingpage.netlify.app/",
-  },
-  {
-    projectName: "Nexter",
-    briefDescription: "Nexter is a landing page advertising for real estate.",
-    projectGithub: "https://github.com/MohamedHassan98/Nexter",
-    projectUrl: "/nexter-project",
-    projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/nexterProject%2FNexterLogo.webp?alt=media",
-    liveDemo: "https://nexterlandingpage.netlify.app/",
-  },
-  {
-    projectName: "Trillo",
-    briefDescription:
-      "Trillo is a landing page advertising for a booking website.",
-    projectGithub: "https://github.com/MohamedHassan98/Trillo",
-    projectUrl: "/trillo-project",
-    projectImage:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/trilloProject%2FTrilloLogo.webp?alt=media",
-    liveDemo: "https://trillolandingpage.netlify.app/",
-  },
+
 ];
 
 const gridRows = projectDatas.reduce(function (rows, key, index) {

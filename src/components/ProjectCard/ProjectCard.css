@@ -35,7 +35,8 @@
     font-size: 16px;
     padding: 16px 25px;
     background-color: #2a7454;
-    background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%);
+    /* background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%); */
+    background-image: linear-gradient(to right, #5a55cc 0%, #20125e 51%, #5a55cc 100%);
     background-size: 200% auto;
     transition: 0.5s;
   }
